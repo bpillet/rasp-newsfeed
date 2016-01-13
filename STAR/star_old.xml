@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?xml-stylesheet href="32.xsl" type="text/xsl"?>
+<?xml-stylesheet href="star.xsl" type="text/xsl"?>
 <opendata>
 	<request>https://data.keolis-rennes.com/xml/?cmd=getbusnextdepartures&amp;version=2.1&amp;key=NVYRKO3GDR7H8O9&amp;param[mode]=stopline&amp;param[route][]=0032&amp;param[direction][]=1&amp;param[stop][]=1441</request>
 	<answer>

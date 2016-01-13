@@ -79,7 +79,7 @@
 
 <xsl:template match="stopline">
    <xsl:param name="sdt" />
-	<h3>Ligne 32</h3>
+	<h3>Ligne <xsl:value-of select="number(route)"/></h3>
 			<xsl:apply-templates select="departures/*"><xsl:with-param name="sdt" select="$sdt" /></xsl:apply-templates>
 </xsl:template>
 
