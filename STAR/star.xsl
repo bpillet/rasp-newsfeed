@@ -69,9 +69,7 @@
     	</xsl:call-template>
     </xsl:variable>-->
     <article class="depart">
-	<p>
-	Direction : <xsl:value-of select="@headsign"/>
-	</p>
+	<p class="direction"><xsl:value-of select="@headsign"/></p>
 	<h4><xsl:value-of select="substring-before(substring-after($prochaindans,'T'),'M')"/> min.</h4>
 	<p>
 	Heure de départ : <xsl:value-of select="substring-before(substring-after($nextdatetime,'T'),'+')"/> .
