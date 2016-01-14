@@ -9,43 +9,10 @@
   <html>
     <head>
        <meta charset="utf-8"/>
+       <link rel="stylesheet" media="screen and (min-width: 890px) and (max-width: 1000024px)" href="./style.css" type="text/css" />
        
-       <title></title>
+        <title></title>
        
-       <style>
-		body{
-			background: #fafafa;
-		}
-		.star{
-			display: block;
-			margin: auto;
-			width: 30em;
-			border: 3px solid #F0F0F0;
-			background: #fff;
-			padding: 1em;
-			border-radius: 0.8em;
-			box-shadow: 2px 5px 3px grey;
-		}
-		h2{
-			text-align: center;
-		}
-		article.depart{
-			width: 20em;
-			margin: auto;
-			color: grey;
-			padding: 0 2em 0 2em;
-			margin-bottom: 2em;
-		}
-		article.depart:first-of-type{
-			color: black;
-			border: 1px dashed grey;
-			border-radius: 0.2em;
-			box-shadow: 1px 2px 1px grey;
-		}
-		.depart h4{
-			text-align: center;
-		}
-       </style>
     </head>
 
     <body>  
@@ -79,8 +46,10 @@
 
 <xsl:template match="stopline">
    <xsl:param name="sdt" />
-	<h3>Ligne <xsl:value-of select="number(route)"/></h3>
+    <article class="stopline">
+	<h3><xsl:value-of select="number(route)"/></h3>
 			<xsl:apply-templates select="departures/*"><xsl:with-param name="sdt" select="$sdt" /></xsl:apply-templates>
+    </article>
 </xsl:template>
 
 

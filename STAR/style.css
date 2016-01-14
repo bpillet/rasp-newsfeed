@@ -1,0 +1,75 @@
+@font-face{
+    font-family:'FontAwesome';
+    src:url('./fonts/fontawesome-webfont.eot?v=4.3.0');
+    src:url('./fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'),url('./fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'),url('./fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'),url('./fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+body{
+	background: #fafafa;
+    font-size: .8em;
+    text-align: center;
+}
+.star{
+	display: inline-block;
+	margin: auto;
+	border: 3px solid #F0F0F0;
+	background: #fff;
+	padding: 1em;
+	border-radius: 0.8em;
+	box-shadow: 2px 5px 3px grey;
+}
+h2{
+	text-align: center;
+}
+.star h3:before{
+    content:"\f207";
+    display:inline-block;
+    font:normal normal normal 14px/1 FontAwesome;
+    font-size:inherit;
+    text-rendering:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    transform:translate(0, 0);
+    margin-right: .5em;
+}
+h3{
+    font: monospace;
+    padding-left: 1em;
+    font-size: 1.5em;
+}
+.depart h4:before{
+    content:"\f017";
+    display:inline-block;
+    font:normal normal normal 14px/1 FontAwesome;
+    font-size:inherit;
+    text-rendering:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    transform:translate(0, 0);
+    margin-right: .5em;
+}
+.stopline{
+    display: inline-block;
+    margin-right: 1em;
+    text-align: left;
+}
+article.depart{
+	width: 20em;
+	margin: auto;
+	color: grey;
+	padding: 0 2em 0 2em;
+	margin-bottom: 2em;
+}
+article.depart:first-of-type{
+	color: black;
+	border: 1px dashed grey;
+	border-radius: 0.2em;
+	box-shadow: 1px 2px 1px grey;
+}
+.depart h4{
+	text-align: center;
+    font-size: 2em;
+    margin: 0;
+}
