@@ -9,6 +9,7 @@
   <html>
     <head>
        <meta charset="utf-8"/>
+       <meta http-equiv="refresh" content="60" />
        <link rel="stylesheet" media="screen and (min-width: 890px) and (max-width: 1000024px)" href="./style.css" type="text/css" />
        
         <title></title>
@@ -32,7 +33,7 @@
 			<xsl:variable name="stardatetime" select="data/@localdatetime"/>
 			<xsl:variable name="stardate" select="substring-before($stardatetime,'T')"/>
 			<xsl:variable name="startime" select="substring-before(substring-after($stardatetime,'T'),'+')"/>
-			<h4>Il est <xsl:value-of select="$startime"/> et nous sommes le <xsl:value-of select="$stardate"/></h4>
+			<div id="info">Il est <xsl:value-of select="$startime"/> et nous sommes le <xsl:value-of select="$stardate"/></div>
 			<xsl:apply-templates select="data/*"><xsl:with-param name="sdt" select="$stardatetime" /></xsl:apply-templates>
 		</xsl:when>
 		<xsl:otherwise>
@@ -47,7 +48,8 @@
 <xsl:template match="stopline">
    <xsl:param name="sdt" />
     <article class="stopline">
-	<h3><xsl:value-of select="number(route)"/></h3>
+    <xsl:variable name="numerobus" select="number(route)"/>
+	<h3 class="ligne"><xsl:if test="$numerobus = 32"><span class="trentedeux"><xsl:value-of select="$numerobus"/></span></xsl:if><xsl:if test="$numerobus = 40"><span class="quarante"><xsl:value-of select="$numerobus"/></span></xsl:if></h3>
 			<xsl:apply-templates select="departures/*"><xsl:with-param name="sdt" select="$sdt" /></xsl:apply-templates>
     </article>
 </xsl:template>
