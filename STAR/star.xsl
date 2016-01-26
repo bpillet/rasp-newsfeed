@@ -10,7 +10,7 @@
     <head>
        <meta charset="utf-8"/>
        <meta http-equiv="refresh" content="60" />
-       <link rel="stylesheet" media="screen and (min-width: 890px) and (max-width: 1000024px)" href="./style.css" type="text/css" />
+       <link rel="stylesheet" media="screen and (min-width: 400px) and (max-width: 1000024px)" href="./style.css" type="text/css" />
        
         <title></title>
        
