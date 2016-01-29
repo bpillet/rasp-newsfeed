@@ -60,7 +60,6 @@ h2{
 	font-variant: normal;
     font-size: 2em;
     line-height: 1em;
-    font-weight: bolder;
     padding-left: 1em;
 }
 .depart h4:before{
@@ -114,12 +113,27 @@ article.depart:first-of-type{
     padding-right: .2em;
     text-align: center;
     border: 1px solid #E2001A;
+    font-weight: bolder;
     border-radius: 50%;
     background: #FFF164;
     color: #E2001A;
 }
 .quarante{
-}
+	font-size: .7em;
+    line-height: .4em;
+    padding-left: .2em;
+    padding-right: .2em;
+    text-align: center;
+    border: 1px solid #3D3C3F;
+	background: #FFDD00;
+	color: #3D3C3F;
+	border-radius: 50%;
+}/*
+.quarante:after{
+	display: inline-block;
+	font-size: .4em;
+	content: 'ex';
+}*/
 header{
 	font-family: digital, clock, monospace;
     font-size: 3em;
