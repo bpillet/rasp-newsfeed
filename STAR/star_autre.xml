@@ -21,6 +21,7 @@
 				<departures>
 					<departure accurate="1" headsign="Monquc sur oise">2016-01-11T16:32:00+01:00</departure>
 					<departure accurate="1" headsign="Tonquc sur toise">2016-01-11T17:12:00+01:00</departure>
+					<departure accurate="1" headsign="Conquc sur soise">2016-01-11T17:12:30+01:00</departure>
 				</departures>
 			</stopline>
 		</data>

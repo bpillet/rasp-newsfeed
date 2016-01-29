@@ -65,14 +65,10 @@
 		    <xsl:with-param name="start" select="$sdt" />
   		</xsl:call-template>
   	</xsl:variable>
-  	<!--<xsl:variable name="prochaindansmin">s
-		<xsl:call-template name="date:minutes">
-    		<xsl:with-param name="minutes" select="$prochaindans" />
-    	</xsl:call-template>
-    </xsl:variable>-->
+  	<xsl:variable name="tmin" select="number(substring-before(substring-after($prochaindans,'T'),'M'))"/>
     <article class="depart">
 	<p class="direction"><xsl:value-of select="@headsign"/></p>
-	<h4><xsl:value-of select="substring-before(substring-after($prochaindans,'T'),'M')"/> min.</h4>
+	<h4><xsl:value-of select="$tmin"/> min.</h4>
 	<p>
 	Heure de départ : <xsl:value-of select="substring-before(substring-after($nextdatetime,'T'),'+')"/> .
 	</p>
