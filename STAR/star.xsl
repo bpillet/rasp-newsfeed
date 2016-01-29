@@ -19,7 +19,7 @@
     <body>  
 
 	<section class="star">
-	  <h2>Prochain bus</h2>
+	  <!--<h2>Prochain bus</h2>-->
 		<xsl:apply-templates/>
 	</section>
     </body>
@@ -32,8 +32,12 @@
 		<xsl:when test="$messageok = 'OK'">
 			<xsl:variable name="stardatetime" select="data/@localdatetime"/>
 			<xsl:variable name="stardate" select="substring-before($stardatetime,'T')"/>
+			<xsl:variable name="stardatedm" select="substring-after($stardate,'-')"/>
 			<xsl:variable name="startime" select="substring-before(substring-after($stardatetime,'T'),'+')"/>
-			<div id="info">Il est <xsl:value-of select="$startime"/> et nous sommes le <xsl:value-of select="$stardate"/></div>
+			<header>
+                <span id="clock"><xsl:value-of select="substring($startime,0,6)"/></span>
+                <span id="date"><xsl:value-of select="substring-after($stardatedm,'-')"/>/<xsl:value-of select="substring-before($stardatedm,'-')"/></span>
+            </header>
 			<xsl:apply-templates select="data/*"><xsl:with-param name="sdt" select="$stardatetime" /></xsl:apply-templates>
 		</xsl:when>
 		<xsl:otherwise>
@@ -48,31 +52,50 @@
 <xsl:template match="stopline">
    <xsl:param name="sdt" />
     <article class="stopline">
-    <xsl:variable name="numerobus" select="number(route)"/>
-	<h3 class="ligne"><xsl:if test="$numerobus = 32"><span class="trentedeux"><xsl:value-of select="$numerobus"/></span></xsl:if><xsl:if test="$numerobus = 40"><span class="quarante"><xsl:value-of select="$numerobus"/></span></xsl:if></h3>
-			<xsl:apply-templates select="departures/*"><xsl:with-param name="sdt" select="$sdt" /></xsl:apply-templates>
+      <xsl:variable name="numerobus" select="number(route)"/>
+	    <h3 class="ligne">
+	      <xsl:if test="$numerobus = 32"><span class="trentedeux"><xsl:value-of select="$numerobus"/></span></xsl:if>
+	      <xsl:if test="$numerobus = 40"><span class="quarante"><xsl:value-of select="$numerobus"/></span></xsl:if>
+      </h3>
+			<xsl:apply-templates select="departures/*">
+			  <xsl:with-param name="sdt" select="$sdt" />
+			  <xsl:with-param name="numerobus" select="$numerobus"/>
+      </xsl:apply-templates>
     </article>
 </xsl:template>
 
 
 <xsl:template match="departure">
    <xsl:param name="sdt" />
+   <xsl:param name="numerobus"/>
 
-	<xsl:variable name="nextdatetime"><xsl:value-of select="."/></xsl:variable>
- 	<xsl:variable name="prochaindans">
+	  <xsl:variable name="nextdatetime"><xsl:value-of select="."/></xsl:variable>
+ 	  <xsl:variable name="prochaindans">
   		<xsl:call-template name="date:difference">
   			<xsl:with-param name="end" select="$nextdatetime" />
 		    <xsl:with-param name="start" select="$sdt" />
   		</xsl:call-template>
   	</xsl:variable>
   	<xsl:variable name="tmin" select="number(substring-before(substring-after($prochaindans,'T'),'M'))"/>
-    <article class="depart">
-	<p class="direction"><xsl:value-of select="@headsign"/></p>
-	<h4><xsl:value-of select="$tmin"/> min.</h4>
-	<p>
-	Heure de départ : <xsl:value-of select="substring-before(substring-after($nextdatetime,'T'),'+')"/> .
-	</p>
-	</article>
+    
+    <xsl:if test="$numerobus = 32">
+      <xsl:if test="$tmin>5">
+        <article class="depart">
+	      <p class="direction"><xsl:value-of select="@headsign"/></p>
+          <h4><xsl:value-of select="$tmin"/> min.</h4>
+          <p>Heure de départ : <xsl:value-of select="substring-before(substring-after($nextdatetime,'T'),'+')"/></p>
+	    </article>
+      </xsl:if>
+    </xsl:if>
+    <xsl:if test="$numerobus = 40">
+      <xsl:if test="$tmin>10">
+        <article class="depart">
+	      <p class="direction"><xsl:value-of select="@headsign"/></p>
+          <h4><xsl:value-of select="$tmin"/> min.</h4>
+          <p>Heure de départ : <xsl:value-of select="substring-before(substring-after($nextdatetime,'T'),'+')"/></p>
+	    </article>
+      </xsl:if>
+    </xsl:if>
 </xsl:template>
 
 

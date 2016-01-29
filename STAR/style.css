@@ -5,6 +5,14 @@
     font-weight:normal;
     font-style:normal;
 }
+@font-face{
+    font-family:'clock';
+    src:url('./fonts/alarm clock.ttf');
+}
+@font-face{
+    font-family:'digital';
+    src:url('./fonts/DS-DIGI.TTF');
+}
 
 body{
 	background: #fafafa;
@@ -112,12 +120,13 @@ article.depart:first-of-type{
 }
 .quarante{
 }
-#info{
-	font-family: Helvetica, "Courier New", Courier, monospace;
-	font-style: normal;
-	font-variant: normal;
-    font-weight: normal;
-    font-size: 1em;
-    line-height: 1em;
-    padding-left: 1em;    
+header{
+	font-family: digital, clock, monospace;
+    font-size: 3em;
+    margin-bottom: .2em;
+    background: #fafafa;
+    border-radius: .8em;
+}
+header span{
+    margin:1em;
 }
