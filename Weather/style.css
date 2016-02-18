@@ -1,0 +1,41 @@
+@font-face{
+    font-family:'FontAwesome';
+    src:url('./fonts/fontawesome-webfont.eot?v=4.3.0');
+    src:url('./fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'),url('./fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'),url('./fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'),url('./fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face{
+    font-family:'clock';
+    src:url('./fonts/alarm clock.ttf');
+}
+@font-face{
+    font-family:'digital';
+    src:url('./fonts/DS-DIGI.TTF');
+}
+
+body{
+	background: #fafafa;
+    font-size: .8em;
+    text-align: center;
+}
+h2{
+	text-align: left;
+	font-family: monospace;
+	font-style: normal;
+	font-variant: small-caps;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 1.6em;
+    padding-left: .5em;
+    background: #fafafa;
+    border: 1px solid #f0f0f0;
+    border-radius: .8em;
+    margin-top: 0;
+    color: #6060f0;
+}
+article{
+	display: inline-block;
+	margin-top: 1em;
+	border: 1px solid black;
+}
