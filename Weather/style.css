@@ -5,6 +5,13 @@
     font-weight:normal;
     font-style:normal;
 }
+@font-face {
+  font-family: 'weathericons';
+  src: url('./font/weathericons-regular-webfont.eot');
+  src: url('./font/weathericons-regular-webfont.eot?#iefix') format('embedded-opentype'), url('./font/weathericons-regular-webfont.woff2') format('woff2'), url('./font/weathericons-regular-webfont.woff') format('woff'), url('./font/weathericons-regular-webfont.ttf') format('truetype'), url('./font/weathericons-regular-webfont.svg#weather_iconsregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face{
     font-family:'clock';
     src:url('./fonts/alarm clock.ttf');
@@ -37,5 +44,59 @@ h2{
 article{
 	display: inline-block;
 	margin-top: 1em;
-	border: 1px solid black;
+}
+.temp{
+	display: inline-block;
+	font-size: 2em;
+}
+.feel{
+	display: block;
+	color: grey;
+	font-size: .8em;
+	position: relative;
+	bottom: 0;
+}
+.temp:before {
+  display: inline-block;
+  font-family: 'weathericons';
+  padding-right: .4em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f055";
+}
+.precip:before {
+  display: inline-block;
+  font-family: 'weathericons';
+  padding-right: .4em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f019";
+}
+.humid:before {
+  display: inline-block;
+  font-family: 'weathericons';
+  padding-right: .4em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f07a";
+}
+.pression:before {
+  display: inline-block;
+  font-family: 'weathericons';
+  padding-right: .4em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f079";
 }
