@@ -15,7 +15,8 @@
     </head>
     <body>  
 
-	<section class="weather">
+	<section id="weather">
+		<div id="timeline"/>
 		<xsl:apply-templates select="response/hourly_forecast"/>
 	</section>
     </body>
@@ -23,36 +24,13 @@
 </xsl:template>
 
 
-
-<xsl:template name="temperature">
-	<p class="temp"><xsl:value-of select="temp/metric"/>°<span class="feel"><xsl:value-of select="feelslike/metric"/>°</span></p>	
-</xsl:template>
-
-<xsl:template match="temp">
-<!--	<p>Température <xsl:value-of select="metric"/>°</p>-->
-</xsl:template>
-<xsl:template match="feelslike">
-<!--	<p>Température ressentie : <xsl:value-of select="metric"/>°</p>-->
-</xsl:template>
-
-
-
-<xsl:template match="FCTTIME">
-	<p>
-		<!--<xsl:value-of select="hour"/>:<xsl:value-of select="min"/>:<xsl:value-of select="sec"/> le <xsl:value-of select="mday"/>/<xsl:value-of select="mon_padded"/>-->	<xsl:value-of select="hour"/> h
-	</p>
-</xsl:template>
-
-<xsl:template match="pop">
-	<p class="precip"><xsl:value-of select="."/>%</p>
-</xsl:template>
-
 <xsl:template match="forecast">
 	<article>
 		<xsl:apply-templates select="FCTTIME"/>
 		<article>
 			<xsl:call-template name="temperature"/>
-			<xsl:apply-templates/>
+			<xsl:apply-templates select="./*[not(self::FCTTIME)]"/>
+			<xsl:call-template name="vent"/>
 		</article>
 	</article>
 </xsl:template>
@@ -65,23 +43,70 @@
 	</img>
 </xsl:template>
 
+<xsl:template name="temperature">
+	<xsl:variable name="temp" select="temp/metric"/>
+	<xsl:variable name="feel" select="feelslike/metric"/>
+	<p class="temp"><xsl:value-of select="number($temp)"/>°<span class="feel"><xsl:value-of select="number($feel)"/>°</span></p>	
+</xsl:template>
+
+<xsl:template match="FCTTIME">
+	<p>
+		<!--<xsl:value-of select="hour"/>:<xsl:value-of select="min"/>:<xsl:value-of select="sec"/> le <xsl:value-of select="mday"/>/<xsl:value-of select="mon_padded"/>-->	<xsl:value-of select="hour"/> h
+	</p>
+</xsl:template>
+
+<xsl:template match="pop">
+	<p class="precip"><xsl:value-of select="."/>%</p>
+</xsl:template>
+
 <xsl:template match="humidity">
 	<p class="humid"> <xsl:value-of select="."/>%</p>
 </xsl:template>
 
 <xsl:template match="snow">
 	<xsl:if test="metric &gt; 0">
-	<p>Neige : <xsl:value-of select="metric"/>%</p>
+		<p class="neige"><xsl:value-of select="metric"/>%</p>
 	</xsl:if>
 </xsl:template>
 
+<xsl:template name="vent">
+	<xsl:variable name="vitesse" select="wspd/metric"/>
+	<xsl:variable name="angle" select="wdir/degrees"/>
+	<xsl:element name="p">
+		<xsl:attribute name="style">
+			font-size: <xsl:value-of select=".8 + $vitesse*0.07"/>em;
+		</xsl:attribute>
+		<xsl:element name="span">
+			<xsl:attribute name="class">vent</xsl:attribute>
+			<xsl:attribute name="style">
+				-webkit-transform: rotate(<xsl:value-of select="$angle"/>deg);
+  				-moz-transform: rotate(<xsl:value-of select="$angle"/>deg);
+  				-ms-transform: rotate(<xsl:value-of select="$angle"/>deg);
+  				-o-transform: rotate(<xsl:value-of select="$angle"/>deg);
+  				transform: rotate(<xsl:value-of select="$angle"/>deg);
+			</xsl:attribute>
+			&#61617;
+		</xsl:element>
+		<xsl:value-of select="wspd/metric"/>
+	</xsl:element>
+</xsl:template>
+<xsl:template match="wspd|windchill|wdir" /><!-- vent -->
+
+<!-- NULL -->
+
 <xsl:template match="mslp">
-	<p class="pression"><xsl:value-of select="metric"/></p>
+<!--	<p class="pression"><xsl:value-of select="metric"/></p>-->
+</xsl:template>
+
+<xsl:template match="temp">
+<!--	<p>Température <xsl:value-of select="metric"/>°</p>-->
+</xsl:template>
+<xsl:template match="feelslike">
+<!--	<p>Température ressentie : <xsl:value-of select="metric"/>°</p>-->
 </xsl:template>
 
 <xsl:template match="icon|english|wx|fctcode|sky|heatindex|dewpoint|qpf"/>
 
 <xsl:template match="uvi"/><!-- indice d'uv-->
-<xsl:template match="condition"/><!-- -->
-<xsl:template match="wspd|windchill|wdir" /><!-- vent -->
+<xsl:template match="condition"/><!-- nom de l'état du ciel -->
 </xsl:stylesheet>

@@ -26,6 +26,21 @@ body{
     font-size: .8em;
     text-align: center;
 }
+#weather{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 30%;
+	overflow: hidden;
+	bottom: 1em;
+}
+#timeline{
+	position: relative;
+	height: 3px;
+	width: 100%;
+	background-color: black;
+	top: 3em;
+}
 h2{
 	text-align: left;
 	font-family: monospace;
@@ -41,13 +56,17 @@ h2{
     margin-top: 0;
     color: #6060f0;
 }
+p{
+	margin: 0.2em;
+}
 article{
 	display: inline-block;
+    vertical-align: top;
 	margin-top: 1em;
 }
 .temp{
-	display: inline-block;
-	font-size: 2em;
+	display: block;
+	font-size: 1.8em;
 }
 .feel{
 	display: block;
@@ -66,6 +85,9 @@ article{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\f055";
+}
+.precip{
+	font-size: 1.5em;
 }
 .precip:before {
   display: inline-block;
@@ -99,4 +121,14 @@ article{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\f079";
+}
+.vent{
+  display: inline-block;
+  font-family: 'weathericons';
+  padding-right: .4em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
