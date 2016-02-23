@@ -23,7 +23,6 @@
   </html>
 </xsl:template>
 
-
 <xsl:template match="forecast">
 	<article>
 		<xsl:apply-templates select="FCTTIME"/>
@@ -74,7 +73,7 @@
 	<xsl:variable name="angle" select="wdir/degrees"/>
 	<xsl:element name="p">
 		<xsl:attribute name="style">
-			font-size: <xsl:value-of select=".8 + $vitesse*0.07"/>em;
+			font-size: <xsl:value-of select=".6 + $vitesse*0.07"/>em;
 		</xsl:attribute>
 		<xsl:element name="span">
 			<xsl:attribute name="class">vent</xsl:attribute>

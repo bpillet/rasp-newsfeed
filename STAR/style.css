@@ -22,11 +22,13 @@ body{
 .star{
 	display: inline-block;
 	margin: auto;
+	height: 60%
 	border: 3px solid #F0F0F0;
 	background: #fff;
 	padding: 1em;
 	border-radius: 0.8em;
 	box-shadow: 2px 5px 3px grey;
+	overflow: hidden;
 }
 h2{
 	text-align: left;
@@ -73,6 +75,10 @@ h2{
     transform:translate(0, 0);
     margin-right: .5em;
 }
+.depart p{
+	margin-top: .3em;
+	margin-bottom: .3em;
+}
 .direction:before{	
 	content: "\f0a9";
     display:inline-block;
@@ -95,7 +101,7 @@ article.depart{
 	margin: auto;
 	color: grey;
 	padding: 0 2em 0 2em;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 article.depart:first-of-type{
 	color: black;
@@ -105,7 +111,7 @@ article.depart:first-of-type{
 }
 .depart h4{
 	text-align: center;
-    font-size: 2em;
+    font-size: 2.2em;
     margin: 0;
 }
 .trentedeux{

@@ -41,25 +41,10 @@ body{
 	background-color: black;
 	top: 3em;
 }
-h2{
-	text-align: left;
-	font-family: monospace;
-	font-style: normal;
-	font-variant: small-caps;
-    font-weight: normal;
-    font-size: 2em;
-    line-height: 1.6em;
-    padding-left: .5em;
-    background: #fafafa;
-    border: 1px solid #f0f0f0;
-    border-radius: .8em;
-    margin-top: 0;
-    color: #6060f0;
-}
-p{
+#weather p{
 	margin: 0.2em;
 }
-article{
+#weather article{
 	display: inline-block;
     vertical-align: top;
 	margin-top: 1em;
