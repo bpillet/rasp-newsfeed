@@ -25,6 +25,9 @@
 					<departure accurate="1" headsign="Conquc sur soise">2016-01-11T16:32:30+01:00</departure>
 					<departure accurate="1" headsign="Lonquc sur loise">2016-01-11T16:52:00+01:00</departure>
 					<departure accurate="1" headsign="Donquc sur doise">2016-01-11T17:12:30+01:00</departure>
+					<departure accurate="1" headsign="Conquc sur soise">2016-01-11T17:13:30+01:00</departure>
+					<departure accurate="1" headsign="Lonquc sur loise">2016-01-11T17:14:00+01:00</departure>
+					<departure accurate="1" headsign="Donquc sur doise">2016-01-11T17:15:30+01:00</departure>
 				</departures>
 			</stopline>
 		</data>

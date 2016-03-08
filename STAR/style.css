@@ -19,18 +19,18 @@ body{
     font-size: .8em;
     text-align: center;
 }
-.star{
+#star{
 	display: inline-block;
 	margin: auto;
-	height: 60%
-	border: 3px solid #F0F0F0;
+	height: 60%;/*
+	border: 3px solid #F0F0F0;*/
 	background: #fff;
 	padding: 1em;
 	border-radius: 0.8em;
 	box-shadow: 2px 5px 3px grey;
 	overflow: hidden;
 }
-h2{
+#star h2{
 	text-align: left;
 	font-family: monospace;
 	font-style: normal;
@@ -45,7 +45,7 @@ h2{
     margin-top: 0;
     color: #6060f0;
 }
-.ligne:before{
+#star .ligne:before{
     content:"\f207";
     display:inline-block;
     font:normal normal normal 14px/1 FontAwesome;
@@ -56,7 +56,7 @@ h2{
     transform:translate(0, 0);
     margin-right: .5em;
 }
-.ligne{
+#star .ligne{
 	font-family: Helvetica, "Courier New", Courier, monospace;
 	font-style: normal;
 	font-variant: normal;
@@ -64,7 +64,7 @@ h2{
     line-height: 1em;
     padding-left: 1em;
 }
-.depart h4:before{
+#star .depart h4:before{
     content:"\f017";
     display:inline-block;
     font:normal normal normal 14px/1 FontAwesome;
@@ -75,11 +75,11 @@ h2{
     transform:translate(0, 0);
     margin-right: .5em;
 }
-.depart p{
+#star .depart p{
 	margin-top: .3em;
 	margin-bottom: .3em;
 }
-.direction:before{	
+#star .direction:before{	
 	content: "\f0a9";
     display:inline-block;
     font:normal normal normal 14px/1 FontAwesome;
@@ -90,31 +90,31 @@ h2{
     transform:translate(0, 0);
     margin-right: .5em;
 }
-.stopline{
+#star .stopline{
     display: inline-block;
     margin-right: 1em;
     text-align: left;
     vertical-align: top;
 }
-article.depart{
+#star article.depart{
 	width: 20em;
 	margin: auto;
 	color: grey;
 	padding: 0 2em 0 2em;
 	margin-bottom: 1em;
 }
-article.depart:first-of-type{
+#star article.depart:first-of-type{
 	color: black;
 	border: 1px dashed grey;
 	border-radius: 0.2em;
 	box-shadow: 1px 2px 1px grey;
 }
-.depart h4{
+#star .depart h4{
 	text-align: center;
     font-size: 2.2em;
     margin: 0;
 }
-.trentedeux{
+#star .trentedeux{
     padding-left: .2em;
     padding-right: .2em;
     text-align: center;
@@ -124,7 +124,7 @@ article.depart:first-of-type{
     background: #FFF164;
     color: #E2001A;
 }
-.quarante{
+#star .quarante{
 	font-size: .7em;
     line-height: .4em;
     padding-left: .2em;
@@ -140,13 +140,13 @@ article.depart:first-of-type{
 	font-size: .4em;
 	content: 'ex';
 }*/
-header{
+#star header{
 	font-family: digital, clock, monospace;
     font-size: 3em;
     margin-bottom: .2em;
     background: #fafafa;
     border-radius: .8em;
 }
-header span{
+#star header span{
     margin:1em;
 }

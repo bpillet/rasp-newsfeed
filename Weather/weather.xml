@@ -1,6 +1,5 @@
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <?xml-stylesheet href="weather.xsl" type="text/xsl"?>
-
 <response>
 	<version>0.1</version>
 	<termsofService>http://www.wunderground.com/weather/api/d/terms.html</termsofService>
@@ -10,7 +9,251 @@
 	<hourly_forecast>
 		<forecast>
 		<FCTTIME>
-		<hour>20</hour><hour_padded>20</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>23</mday><mday_padded>23</mday_padded><yday>53</yday><isdst>0</isdst><epoch>1456254000</epoch><pretty>8:00 PM CET on February 23, 2016</pretty><civil>8:00 PM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+		<hour>18</hour><hour_padded>18</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>2</mday><mday_padded>02</mday_padded><yday>61</yday><isdst>0</isdst><epoch>1456938000</epoch><pretty>6:00 PM CET on March 02, 2016</pretty><civil>6:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>45</english>
+				<metric>7</metric>
+			</temp>
+			<dewpoint>
+				<english>39</english>
+				<metric>4</metric>
+			</dewpoint>
+			<condition>Overcast</condition>
+			
+			
+			<icon>cloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/cloudy.gif</icon_url>
+			<fctcode>4</fctcode>
+			<sky>96</sky>
+			<wspd>
+				<english>18</english>
+				<metric>29</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>291</degrees>
+			</wdir>
+			<wx>Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>81</humidity>
+			<windchill>
+				<english>37</english>
+				<metric>3</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>37</english>
+					<metric>3</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>29.82</english>
+				<metric>1010</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>19</hour><hour_padded>19</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>2</mday><mday_padded>02</mday_padded><yday>61</yday><isdst>0</isdst><epoch>1456941600</epoch><pretty>7:00 PM CET on March 02, 2016</pretty><civil>7:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>45</english>
+				<metric>7</metric>
+			</temp>
+			<dewpoint>
+				<english>38</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Overcast</condition>
+			
+			
+			<icon>cloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_cloudy.gif</icon_url>
+			<fctcode>4</fctcode>
+			<sky>87</sky>
+			<wspd>
+				<english>17</english>
+				<metric>27</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>295</degrees>
+			</wdir>
+			<wx>Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>76</humidity>
+			<windchill>
+				<english>37</english>
+				<metric>3</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>37</english>
+					<metric>3</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>29.82</english>
+				<metric>1010</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>20</hour><hour_padded>20</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>2</mday><mday_padded>02</mday_padded><yday>61</yday><isdst>0</isdst><epoch>1456945200</epoch><pretty>8:00 PM CET on March 02, 2016</pretty><civil>8:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>45</english>
+				<metric>7</metric>
+			</temp>
+			<dewpoint>
+				<english>37</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Overcast</condition>
+			
+			
+			<icon>cloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_cloudy.gif</icon_url>
+			<fctcode>4</fctcode>
+			<sky>82</sky>
+			<wspd>
+				<english>16</english>
+				<metric>26</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>296</degrees>
+			</wdir>
+			<wx>Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>75</humidity>
+			<windchill>
+				<english>37</english>
+				<metric>3</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>37</english>
+					<metric>3</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>29.83</english>
+				<metric>1010</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>21</hour><hour_padded>21</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>2</mday><mday_padded>02</mday_padded><yday>61</yday><isdst>0</isdst><epoch>1456948800</epoch><pretty>9:00 PM CET on March 02, 2016</pretty><civil>9:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>45</english>
+				<metric>7</metric>
+			</temp>
+			<dewpoint>
+				<english>38</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Mostly Cloudy</condition>
+			
+			
+			<icon>mostlycloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif</icon_url>
+			<fctcode>3</fctcode>
+			<sky>79</sky>
+			<wspd>
+				<english>16</english>
+				<metric>26</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>293</degrees>
+			</wdir>
+			<wx>Mostly Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>78</humidity>
+			<windchill>
+				<english>37</english>
+				<metric>3</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>37</english>
+					<metric>3</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>0</pop>
+			<mslp>
+				<english>29.83</english>
+				<metric>1010</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>22</hour><hour_padded>22</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>2</mday><mday_padded>02</mday_padded><yday>61</yday><isdst>0</isdst><epoch>1456952400</epoch><pretty>10:00 PM CET on March 02, 2016</pretty><civil>10:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
 			</FCTTIME>
 			<temp>
 				<english>45</english>
@@ -26,21 +269,21 @@
 			<icon>partlycloudy</icon>
 			<icon_url>http://icons.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
 			<fctcode>2</fctcode>
-			<sky>31</sky>
+			<sky>59</sky>
 			<wspd>
-				<english>2</english>
+				<english>17</english>
+				<metric>27</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>292</degrees>
+			</wdir>
+			<wx>Partly Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>70</humidity>
+			<windchill>
+				<english>37</english>
 				<metric>3</metric>
-			</wspd>
-			<wdir>
-				<dir>ENE</dir>
-				<degrees>71</degrees>
-			</wdir>
-			<wx>Partly Cloudy</wx>
-			<uvi>0</uvi>
-			<humidity>69</humidity>
-			<windchill>
-				<english>-9999</english>
-				<metric>-9999</metric>
 			</windchill>
 			<heatindex>
 				<english>-9999</english>
@@ -48,69 +291,8 @@
 			</heatindex>
 			
 				<feelslike>
-					<english>45</english>
-					<metric>7</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.0</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>3</pop>
-			<mslp>
-				<english>30.11</english>
-				<metric>1020</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>21</hour><hour_padded>21</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>23</mday><mday_padded>23</mday_padded><yday>53</yday><isdst>0</isdst><epoch>1456257600</epoch><pretty>9:00 PM CET on February 23, 2016</pretty><civil>9:00 PM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>44</english>
-				<metric>7</metric>
-			</temp>
-			<dewpoint>
-				<english>36</english>
-				<metric>2</metric>
-			</dewpoint>
-			<condition>Partly Cloudy</condition>
-			
-			
-			<icon>partlycloudy</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
-			<fctcode>2</fctcode>
-			<sky>37</sky>
-			<wspd>
-				<english>3</english>
-				<metric>5</metric>
-			</wspd>
-			<wdir>
-				<dir>E</dir>
-				<degrees>92</degrees>
-			</wdir>
-			<wx>Partly Cloudy</wx>
-			<uvi>0</uvi>
-			<humidity>74</humidity>
-			<windchill>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>44</english>
-					<metric>7</metric>
+					<english>37</english>
+					<metric>3</metric>
 				</feelslike>
 			
 			<qpf>
@@ -123,8 +305,8 @@
 			</snow>
 			<pop>0</pop>
 			<mslp>
-				<english>30.12</english>
-				<metric>1020</metric>
+				<english>29.84</english>
+				<metric>1011</metric>
 			</mslp>
 		</forecast>
 		
@@ -132,7 +314,556 @@
 		
 		<forecast>
 			<FCTTIME>
-				<hour>22</hour><hour_padded>22</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>23</mday><mday_padded>23</mday_padded><yday>53</yday><isdst>0</isdst><epoch>1456261200</epoch><pretty>10:00 PM CET on February 23, 2016</pretty><civil>10:00 PM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+				<hour>23</hour><hour_padded>23</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>2</mday><mday_padded>02</mday_padded><yday>61</yday><isdst>0</isdst><epoch>1456956000</epoch><pretty>11:00 PM CET on March 02, 2016</pretty><civil>11:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>45</english>
+				<metric>7</metric>
+			</temp>
+			<dewpoint>
+				<english>37</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>52</sky>
+			<wspd>
+				<english>16</english>
+				<metric>26</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>292</degrees>
+			</wdir>
+			<wx>Partly Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>73</humidity>
+			<windchill>
+				<english>37</english>
+				<metric>3</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>37</english>
+					<metric>3</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>5</pop>
+			<mslp>
+				<english>29.85</english>
+				<metric>1011</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>0</hour><hour_padded>00</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1456959600</epoch><pretty>12:00 AM CET on March 03, 2016</pretty><civil>12:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>45</english>
+				<metric>7</metric>
+			</temp>
+			<dewpoint>
+				<english>38</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Mostly Cloudy</condition>
+			
+			
+			<icon>mostlycloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif</icon_url>
+			<fctcode>3</fctcode>
+			<sky>63</sky>
+			<wspd>
+				<english>15</english>
+				<metric>24</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>293</degrees>
+			</wdir>
+			<wx>Mostly Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>75</humidity>
+			<windchill>
+				<english>38</english>
+				<metric>3</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>38</english>
+					<metric>3</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>8</pop>
+			<mslp>
+				<english>29.85</english>
+				<metric>1011</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>1</hour><hour_padded>01</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1456963200</epoch><pretty>1:00 AM CET on March 03, 2016</pretty><civil>1:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>45</english>
+				<metric>7</metric>
+			</temp>
+			<dewpoint>
+				<english>38</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Mostly Cloudy</condition>
+			
+			
+			<icon>mostlycloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif</icon_url>
+			<fctcode>3</fctcode>
+			<sky>60</sky>
+			<wspd>
+				<english>14</english>
+				<metric>23</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>294</degrees>
+			</wdir>
+			<wx>Mostly Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>75</humidity>
+			<windchill>
+				<english>38</english>
+				<metric>3</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>38</english>
+					<metric>3</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>11</pop>
+			<mslp>
+				<english>29.86</english>
+				<metric>1011</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>2</hour><hour_padded>02</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1456966800</epoch><pretty>2:00 AM CET on March 03, 2016</pretty><civil>2:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>45</english>
+				<metric>7</metric>
+			</temp>
+			<dewpoint>
+				<english>38</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Mostly Cloudy</condition>
+			
+			
+			<icon>mostlycloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif</icon_url>
+			<fctcode>3</fctcode>
+			<sky>60</sky>
+			<wspd>
+				<english>14</english>
+				<metric>23</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>295</degrees>
+			</wdir>
+			<wx>Mostly Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>78</humidity>
+			<windchill>
+				<english>38</english>
+				<metric>3</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>38</english>
+					<metric>3</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>4</pop>
+			<mslp>
+				<english>29.85</english>
+				<metric>1011</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>3</hour><hour_padded>03</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1456970400</epoch><pretty>3:00 AM CET on March 03, 2016</pretty><civil>3:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>44</english>
+				<metric>7</metric>
+			</temp>
+			<dewpoint>
+				<english>38</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>46</sky>
+			<wspd>
+				<english>13</english>
+				<metric>21</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>295</degrees>
+			</wdir>
+			<wx>Partly Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>79</humidity>
+			<windchill>
+				<english>38</english>
+				<metric>4</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>38</english>
+					<metric>4</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>4</pop>
+			<mslp>
+				<english>29.85</english>
+				<metric>1011</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>4</hour><hour_padded>04</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1456974000</epoch><pretty>4:00 AM CET on March 03, 2016</pretty><civil>4:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>44</english>
+				<metric>7</metric>
+			</temp>
+			<dewpoint>
+				<english>38</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Partly Cloudy</condition>
+			
+			
+			<icon>partlycloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<fctcode>2</fctcode>
+			<sky>58</sky>
+			<wspd>
+				<english>13</english>
+				<metric>21</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>294</degrees>
+			</wdir>
+			<wx>Partly Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>81</humidity>
+			<windchill>
+				<english>38</english>
+				<metric>4</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>38</english>
+					<metric>4</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>6</pop>
+			<mslp>
+				<english>29.84</english>
+				<metric>1011</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>5</hour><hour_padded>05</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1456977600</epoch><pretty>5:00 AM CET on March 03, 2016</pretty><civil>5:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>43</english>
+				<metric>6</metric>
+			</temp>
+			<dewpoint>
+				<english>37</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Mostly Cloudy</condition>
+			
+			
+			<icon>mostlycloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif</icon_url>
+			<fctcode>3</fctcode>
+			<sky>63</sky>
+			<wspd>
+				<english>13</english>
+				<metric>21</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>294</degrees>
+			</wdir>
+			<wx>Mostly Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>79</humidity>
+			<windchill>
+				<english>36</english>
+				<metric>2</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>36</english>
+					<metric>2</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>8</pop>
+			<mslp>
+				<english>29.85</english>
+				<metric>1011</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>6</hour><hour_padded>06</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1456981200</epoch><pretty>6:00 AM CET on March 03, 2016</pretty><civil>6:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>43</english>
+				<metric>6</metric>
+			</temp>
+			<dewpoint>
+				<english>37</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Mostly Cloudy</condition>
+			
+			
+			<icon>mostlycloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif</icon_url>
+			<fctcode>3</fctcode>
+			<sky>64</sky>
+			<wspd>
+				<english>13</english>
+				<metric>21</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>296</degrees>
+			</wdir>
+			<wx>Mostly Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>79</humidity>
+			<windchill>
+				<english>36</english>
+				<metric>2</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>36</english>
+					<metric>2</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>9</pop>
+			<mslp>
+				<english>29.85</english>
+				<metric>1011</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>7</hour><hour_padded>07</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1456984800</epoch><pretty>7:00 AM CET on March 03, 2016</pretty><civil>7:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>43</english>
+				<metric>6</metric>
+			</temp>
+			<dewpoint>
+				<english>37</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Mostly Cloudy</condition>
+			
+			
+			<icon>mostlycloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif</icon_url>
+			<fctcode>3</fctcode>
+			<sky>64</sky>
+			<wspd>
+				<english>12</english>
+				<metric>19</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>296</degrees>
+			</wdir>
+			<wx>Mostly Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>77</humidity>
+			<windchill>
+				<english>36</english>
+				<metric>2</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>36</english>
+					<metric>2</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>7</pop>
+			<mslp>
+				<english>29.86</english>
+				<metric>1011</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>8</hour><hour_padded>08</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1456988400</epoch><pretty>8:00 AM CET on March 03, 2016</pretty><civil>8:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
 			</FCTTIME>
 			<temp>
 				<english>43</english>
@@ -146,23 +877,694 @@
 			
 			
 			<icon>partlycloudy</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
+			<icon_url>http://icons.wxug.com/i/c/k/partlycloudy.gif</icon_url>
 			<fctcode>2</fctcode>
-			<sky>40</sky>
+			<sky>58</sky>
 			<wspd>
-				<english>2</english>
-				<metric>3</metric>
+				<english>12</english>
+				<metric>19</metric>
 			</wspd>
 			<wdir>
-				<dir>E</dir>
-				<degrees>101</degrees>
+				<dir>WNW</dir>
+				<degrees>295</degrees>
 			</wdir>
 			<wx>Partly Cloudy</wx>
 			<uvi>0</uvi>
-			<humidity>78</humidity>
+			<humidity>77</humidity>
+			<windchill>
+				<english>36</english>
+				<metric>2</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>36</english>
+					<metric>2</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>7</pop>
+			<mslp>
+				<english>29.87</english>
+				<metric>1012</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>9</hour><hour_padded>09</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1456992000</epoch><pretty>9:00 AM CET on March 03, 2016</pretty><civil>9:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>44</english>
+				<metric>7</metric>
+			</temp>
+			<dewpoint>
+				<english>38</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Mostly Cloudy</condition>
+			
+			
+			<icon>mostlycloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/mostlycloudy.gif</icon_url>
+			<fctcode>3</fctcode>
+			<sky>69</sky>
+			<wspd>
+				<english>10</english>
+				<metric>16</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>291</degrees>
+			</wdir>
+			<wx>Mostly Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>77</humidity>
+			<windchill>
+				<english>39</english>
+				<metric>4</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>39</english>
+					<metric>4</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>6</pop>
+			<mslp>
+				<english>29.88</english>
+				<metric>1012</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>10</hour><hour_padded>10</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1456995600</epoch><pretty>10:00 AM CET on March 03, 2016</pretty><civil>10:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>46</english>
+				<metric>8</metric>
+			</temp>
+			<dewpoint>
+				<english>39</english>
+				<metric>4</metric>
+			</dewpoint>
+			<condition>Mostly Cloudy</condition>
+			
+			
+			<icon>mostlycloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/mostlycloudy.gif</icon_url>
+			<fctcode>3</fctcode>
+			<sky>78</sky>
+			<wspd>
+				<english>11</english>
+				<metric>18</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>291</degrees>
+			</wdir>
+			<wx>Mostly Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>77</humidity>
+			<windchill>
+				<english>41</english>
+				<metric>5</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>41</english>
+					<metric>5</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>5</pop>
+			<mslp>
+				<english>29.88</english>
+				<metric>1012</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>11</hour><hour_padded>11</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1456999200</epoch><pretty>11:00 AM CET on March 03, 2016</pretty><civil>11:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>47</english>
+				<metric>8</metric>
+			</temp>
+			<dewpoint>
+				<english>39</english>
+				<metric>4</metric>
+			</dewpoint>
+			<condition>Overcast</condition>
+			
+			
+			<icon>cloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/cloudy.gif</icon_url>
+			<fctcode>4</fctcode>
+			<sky>83</sky>
+			<wspd>
+				<english>13</english>
+				<metric>21</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>297</degrees>
+			</wdir>
+			<wx>Cloudy</wx>
+			<uvi>1</uvi>
+			<humidity>72</humidity>
+			<windchill>
+				<english>41</english>
+				<metric>5</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>41</english>
+					<metric>5</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>22</pop>
+			<mslp>
+				<english>29.89</english>
+				<metric>1012</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>12</hour><hour_padded>12</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1457002800</epoch><pretty>12:00 PM CET on March 03, 2016</pretty><civil>12:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>48</english>
+				<metric>9</metric>
+			</temp>
+			<dewpoint>
+				<english>38</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Overcast</condition>
+			
+			
+			<icon>cloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/cloudy.gif</icon_url>
+			<fctcode>4</fctcode>
+			<sky>88</sky>
+			<wspd>
+				<english>15</english>
+				<metric>24</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>303</degrees>
+			</wdir>
+			<wx>Cloudy</wx>
+			<uvi>1</uvi>
+			<humidity>68</humidity>
 			<windchill>
 				<english>-9999</english>
 				<metric>-9999</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>48</english>
+					<metric>9</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>20</pop>
+			<mslp>
+				<english>29.89</english>
+				<metric>1012</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>13</hour><hour_padded>13</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1457006400</epoch><pretty>1:00 PM CET on March 03, 2016</pretty><civil>1:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>49</english>
+				<metric>9</metric>
+			</temp>
+			<dewpoint>
+				<english>38</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Overcast</condition>
+			
+			
+			<icon>cloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/cloudy.gif</icon_url>
+			<fctcode>4</fctcode>
+			<sky>86</sky>
+			<wspd>
+				<english>16</english>
+				<metric>26</metric>
+			</wspd>
+			<wdir>
+				<dir>NW</dir>
+				<degrees>306</degrees>
+			</wdir>
+			<wx>Cloudy</wx>
+			<uvi>1</uvi>
+			<humidity>66</humidity>
+			<windchill>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>49</english>
+					<metric>9</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>17</pop>
+			<mslp>
+				<english>29.89</english>
+				<metric>1012</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>14</hour><hour_padded>14</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1457010000</epoch><pretty>2:00 PM CET on March 03, 2016</pretty><civil>2:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>49</english>
+				<metric>9</metric>
+			</temp>
+			<dewpoint>
+				<english>38</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Overcast</condition>
+			
+			
+			<icon>cloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/cloudy.gif</icon_url>
+			<fctcode>4</fctcode>
+			<sky>85</sky>
+			<wspd>
+				<english>17</english>
+				<metric>27</metric>
+			</wspd>
+			<wdir>
+				<dir>NW</dir>
+				<degrees>305</degrees>
+			</wdir>
+			<wx>Cloudy</wx>
+			<uvi>1</uvi>
+			<humidity>65</humidity>
+			<windchill>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>49</english>
+					<metric>9</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>16</pop>
+			<mslp>
+				<english>29.87</english>
+				<metric>1012</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>15</hour><hour_padded>15</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1457013600</epoch><pretty>3:00 PM CET on March 03, 2016</pretty><civil>3:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>50</english>
+				<metric>10</metric>
+			</temp>
+			<dewpoint>
+				<english>38</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Overcast</condition>
+			
+			
+			<icon>cloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/cloudy.gif</icon_url>
+			<fctcode>4</fctcode>
+			<sky>91</sky>
+			<wspd>
+				<english>15</english>
+				<metric>24</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>301</degrees>
+			</wdir>
+			<wx>Cloudy</wx>
+			<uvi>1</uvi>
+			<humidity>65</humidity>
+			<windchill>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>50</english>
+					<metric>10</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>16</pop>
+			<mslp>
+				<english>29.85</english>
+				<metric>1011</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>16</hour><hour_padded>16</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1457017200</epoch><pretty>4:00 PM CET on March 03, 2016</pretty><civil>4:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>49</english>
+				<metric>9</metric>
+			</temp>
+			<dewpoint>
+				<english>38</english>
+				<metric>3</metric>
+			</dewpoint>
+			<condition>Overcast</condition>
+			
+			
+			<icon>cloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/cloudy.gif</icon_url>
+			<fctcode>4</fctcode>
+			<sky>91</sky>
+			<wspd>
+				<english>13</english>
+				<metric>21</metric>
+			</wspd>
+			<wdir>
+				<dir>WNW</dir>
+				<degrees>294</degrees>
+			</wdir>
+			<wx>Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>66</humidity>
+			<windchill>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>49</english>
+					<metric>9</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>17</pop>
+			<mslp>
+				<english>29.83</english>
+				<metric>1010</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>17</hour><hour_padded>17</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1457020800</epoch><pretty>5:00 PM CET on March 03, 2016</pretty><civil>5:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>49</english>
+				<metric>9</metric>
+			</temp>
+			<dewpoint>
+				<english>39</english>
+				<metric>4</metric>
+			</dewpoint>
+			<condition>Mostly Cloudy</condition>
+			
+			
+			<icon>mostlycloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/mostlycloudy.gif</icon_url>
+			<fctcode>3</fctcode>
+			<sky>67</sky>
+			<wspd>
+				<english>11</english>
+				<metric>18</metric>
+			</wspd>
+			<wdir>
+				<dir>W</dir>
+				<degrees>281</degrees>
+			</wdir>
+			<wx>Mostly Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>68</humidity>
+			<windchill>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>49</english>
+					<metric>9</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>19</pop>
+			<mslp>
+				<english>29.81</english>
+				<metric>1009</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>18</hour><hour_padded>18</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1457024400</epoch><pretty>6:00 PM CET on March 03, 2016</pretty><civil>6:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>48</english>
+				<metric>9</metric>
+			</temp>
+			<dewpoint>
+				<english>40</english>
+				<metric>4</metric>
+			</dewpoint>
+			<condition>Chance of Rain</condition>
+			
+			
+			<icon>chancerain</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/chancerain.gif</icon_url>
+			<fctcode>12</fctcode>
+			<sky>91</sky>
+			<wspd>
+				<english>8</english>
+				<metric>13</metric>
+			</wspd>
+			<wdir>
+				<dir>W</dir>
+				<degrees>270</degrees>
+			</wdir>
+			<wx>Few Showers</wx>
+			<uvi>0</uvi>
+			<humidity>73</humidity>
+			<windchill>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>48</english>
+					<metric>9</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>32</pop>
+			<mslp>
+				<english>29.8</english>
+				<metric>1009</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>19</hour><hour_padded>19</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1457028000</epoch><pretty>7:00 PM CET on March 03, 2016</pretty><civil>7:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>47</english>
+				<metric>8</metric>
+			</temp>
+			<dewpoint>
+				<english>41</english>
+				<metric>5</metric>
+			</dewpoint>
+			<condition>Overcast</condition>
+			
+			
+			<icon>cloudy</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_cloudy.gif</icon_url>
+			<fctcode>4</fctcode>
+			<sky>98</sky>
+			<wspd>
+				<english>7</english>
+				<metric>11</metric>
+			</wspd>
+			<wdir>
+				<dir>WSW</dir>
+				<degrees>246</degrees>
+			</wdir>
+			<wx>Cloudy</wx>
+			<uvi>0</uvi>
+			<humidity>81</humidity>
+			<windchill>
+				<english>43</english>
+				<metric>6</metric>
 			</windchill>
 			<heatindex>
 				<english>-9999</english>
@@ -182,10 +1584,10 @@
 				<english>0.0</english>
 				<metric>0</metric>
 			</snow>
-			<pop>3</pop>
+			<pop>22</pop>
 			<mslp>
-				<english>30.12</english>
-				<metric>1020</metric>
+				<english>29.77</english>
+				<metric>1008</metric>
 			</mslp>
 		</forecast>
 		
@@ -193,37 +1595,37 @@
 		
 		<forecast>
 			<FCTTIME>
-				<hour>23</hour><hour_padded>23</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>23</mday><mday_padded>23</mday_padded><yday>53</yday><isdst>0</isdst><epoch>1456264800</epoch><pretty>11:00 PM CET on February 23, 2016</pretty><civil>11:00 PM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Tuesday</weekday_name><weekday_name_night>Tuesday Night</weekday_name_night><weekday_name_abbrev>Tue</weekday_name_abbrev><weekday_name_unlang>Tuesday</weekday_name_unlang><weekday_name_night_unlang>Tuesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+				<hour>20</hour><hour_padded>20</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1457031600</epoch><pretty>8:00 PM CET on March 03, 2016</pretty><civil>8:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
 			</FCTTIME>
 			<temp>
-				<english>41</english>
-				<metric>5</metric>
+				<english>46</english>
+				<metric>8</metric>
 			</temp>
 			<dewpoint>
-				<english>37</english>
-				<metric>3</metric>
+				<english>42</english>
+				<metric>6</metric>
 			</dewpoint>
-			<condition>Overcast</condition>
+			<condition>Chance of Rain</condition>
 			
 			
-			<icon>cloudy</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_cloudy.gif</icon_url>
-			<fctcode>4</fctcode>
-			<sky>80</sky>
+			<icon>chancerain</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_chancerain.gif</icon_url>
+			<fctcode>12</fctcode>
+			<sky>99</sky>
 			<wspd>
-				<english>1</english>
-				<metric>2</metric>
+				<english>7</english>
+				<metric>11</metric>
 			</wspd>
 			<wdir>
-				<dir>ESE</dir>
-				<degrees>107</degrees>
+				<dir>SSW</dir>
+				<degrees>213</degrees>
 			</wdir>
-			<wx>Cloudy</wx>
+			<wx>Showers</wx>
 			<uvi>0</uvi>
 			<humidity>84</humidity>
 			<windchill>
-				<english>-9999</english>
-				<metric>-9999</metric>
+				<english>43</english>
+				<metric>6</metric>
 			</windchill>
 			<heatindex>
 				<english>-9999</english>
@@ -231,22 +1633,22 @@
 			</heatindex>
 			
 				<feelslike>
-					<english>41</english>
-					<metric>5</metric>
+					<english>43</english>
+					<metric>6</metric>
 				</feelslike>
 			
 			<qpf>
-				<english>0.0</english>
+				<english>0.01</english>
 				<metric>0</metric>
 			</qpf>
 			<snow>
 				<english>0.0</english>
 				<metric>0</metric>
 			</snow>
-			<pop>5</pop>
+			<pop>35</pop>
 			<mslp>
-				<english>30.12</english>
-				<metric>1020</metric>
+				<english>29.72</english>
+				<metric>1006</metric>
 			</mslp>
 		</forecast>
 		
@@ -254,98 +1656,37 @@
 		
 		<forecast>
 			<FCTTIME>
-				<hour>0</hour><hour_padded>00</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456268400</epoch><pretty>12:00 AM CET on February 24, 2016</pretty><civil>12:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+				<hour>21</hour><hour_padded>21</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1457035200</epoch><pretty>9:00 PM CET on March 03, 2016</pretty><civil>9:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
 			</FCTTIME>
 			<temp>
-				<english>41</english>
-				<metric>5</metric>
+				<english>46</english>
+				<metric>8</metric>
 			</temp>
 			<dewpoint>
-				<english>37</english>
-				<metric>3</metric>
+				<english>43</english>
+				<metric>6</metric>
 			</dewpoint>
-			<condition>Overcast</condition>
+			<condition>Chance of Rain</condition>
 			
 			
-			<icon>cloudy</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_cloudy.gif</icon_url>
-			<fctcode>4</fctcode>
-			<sky>94</sky>
+			<icon>chancerain</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_chancerain.gif</icon_url>
+			<fctcode>12</fctcode>
+			<sky>99</sky>
 			<wspd>
-				<english>2</english>
-				<metric>3</metric>
+				<english>9</english>
+				<metric>14</metric>
 			</wspd>
 			<wdir>
-				<dir>ESE</dir>
-				<degrees>108</degrees>
+				<dir>SSW</dir>
+				<degrees>199</degrees>
 			</wdir>
-			<wx>Cloudy</wx>
+			<wx>Showers</wx>
 			<uvi>0</uvi>
-			<humidity>85</humidity>
+			<humidity>88</humidity>
 			<windchill>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>41</english>
-					<metric>5</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.0</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>6</pop>
-			<mslp>
-				<english>30.11</english>
-				<metric>1020</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>1</hour><hour_padded>01</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456272000</epoch><pretty>1:00 AM CET on February 24, 2016</pretty><civil>1:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
 				<english>42</english>
 				<metric>6</metric>
-			</temp>
-			<dewpoint>
-				<english>37</english>
-				<metric>3</metric>
-			</dewpoint>
-			<condition>Overcast</condition>
-			
-			
-			<icon>cloudy</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_cloudy.gif</icon_url>
-			<fctcode>4</fctcode>
-			<sky>95</sky>
-			<wspd>
-				<english>2</english>
-				<metric>3</metric>
-			</wspd>
-			<wdir>
-				<dir>ESE</dir>
-				<degrees>107</degrees>
-			</wdir>
-			<wx>Cloudy</wx>
-			<uvi>0</uvi>
-			<humidity>85</humidity>
-			<windchill>
-				<english>-9999</english>
-				<metric>-9999</metric>
 			</windchill>
 			<heatindex>
 				<english>-9999</english>
@@ -365,10 +1706,10 @@
 				<english>0.0</english>
 				<metric>0</metric>
 			</snow>
-			<pop>18</pop>
+			<pop>37</pop>
 			<mslp>
-				<english>30.1</english>
-				<metric>1019</metric>
+				<english>29.68</english>
+				<metric>1005</metric>
 			</mslp>
 		</forecast>
 		
@@ -376,15 +1717,198 @@
 		
 		<forecast>
 			<FCTTIME>
-				<hour>2</hour><hour_padded>02</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456275600</epoch><pretty>2:00 AM CET on February 24, 2016</pretty><civil>2:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+				<hour>22</hour><hour_padded>22</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1457038800</epoch><pretty>10:00 PM CET on March 03, 2016</pretty><civil>10:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
 			</FCTTIME>
 			<temp>
-				<english>41</english>
-				<metric>5</metric>
+				<english>47</english>
+				<metric>8</metric>
 			</temp>
 			<dewpoint>
-				<english>38</english>
-				<metric>3</metric>
+				<english>44</english>
+				<metric>7</metric>
+			</dewpoint>
+			<condition>Chance of Rain</condition>
+			
+			
+			<icon>chancerain</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_chancerain.gif</icon_url>
+			<fctcode>12</fctcode>
+			<sky>100</sky>
+			<wspd>
+				<english>11</english>
+				<metric>18</metric>
+			</wspd>
+			<wdir>
+				<dir>SSW</dir>
+				<degrees>203</degrees>
+			</wdir>
+			<wx>Few Showers</wx>
+			<uvi>0</uvi>
+			<humidity>89</humidity>
+			<windchill>
+				<english>41</english>
+				<metric>5</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>41</english>
+					<metric>5</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.01</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>34</pop>
+			<mslp>
+				<english>29.65</english>
+				<metric>1004</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>23</hour><hour_padded>23</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>3</mday><mday_padded>03</mday_padded><yday>62</yday><isdst>0</isdst><epoch>1457042400</epoch><pretty>11:00 PM CET on March 03, 2016</pretty><civil>11:00 PM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>47</english>
+				<metric>8</metric>
+			</temp>
+			<dewpoint>
+				<english>44</english>
+				<metric>7</metric>
+			</dewpoint>
+			<condition>Chance of Rain</condition>
+			
+			
+			<icon>chancerain</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_chancerain.gif</icon_url>
+			<fctcode>12</fctcode>
+			<sky>98</sky>
+			<wspd>
+				<english>10</english>
+				<metric>16</metric>
+			</wspd>
+			<wdir>
+				<dir>SSW</dir>
+				<degrees>214</degrees>
+			</wdir>
+			<wx>Showers</wx>
+			<uvi>0</uvi>
+			<humidity>88</humidity>
+			<windchill>
+				<english>42</english>
+				<metric>5</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>42</english>
+					<metric>5</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.0</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>42</pop>
+			<mslp>
+				<english>29.61</english>
+				<metric>1003</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>0</hour><hour_padded>00</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>4</mday><mday_padded>04</mday_padded><yday>63</yday><isdst>0</isdst><epoch>1457046000</epoch><pretty>12:00 AM CET on March 04, 2016</pretty><civil>12:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Friday</weekday_name><weekday_name_night>Friday Night</weekday_name_night><weekday_name_abbrev>Fri</weekday_name_abbrev><weekday_name_unlang>Friday</weekday_name_unlang><weekday_name_night_unlang>Friday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>48</english>
+				<metric>9</metric>
+			</temp>
+			<dewpoint>
+				<english>46</english>
+				<metric>8</metric>
+			</dewpoint>
+			<condition>Chance of Rain</condition>
+			
+			
+			<icon>chancerain</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_chancerain.gif</icon_url>
+			<fctcode>12</fctcode>
+			<sky>98</sky>
+			<wspd>
+				<english>11</english>
+				<metric>18</metric>
+			</wspd>
+			<wdir>
+				<dir>SW</dir>
+				<degrees>232</degrees>
+			</wdir>
+			<wx>Showers</wx>
+			<uvi>0</uvi>
+			<humidity>93</humidity>
+			<windchill>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>48</english>
+					<metric>9</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.01</english>
+				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>38</pop>
+			<mslp>
+				<english>29.58</english>
+				<metric>1002</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>1</hour><hour_padded>01</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>4</mday><mday_padded>04</mday_padded><yday>63</yday><isdst>0</isdst><epoch>1457049600</epoch><pretty>1:00 AM CET on March 04, 2016</pretty><civil>1:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Friday</weekday_name><weekday_name_night>Friday Night</weekday_name_night><weekday_name_abbrev>Fri</weekday_name_abbrev><weekday_name_unlang>Friday</weekday_name_unlang><weekday_name_night_unlang>Friday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>49</english>
+				<metric>9</metric>
+			</temp>
+			<dewpoint>
+				<english>47</english>
+				<metric>8</metric>
 			</dewpoint>
 			<condition>Chance of Rain</condition>
 			
@@ -394,446 +1918,19 @@
 			<fctcode>12</fctcode>
 			<sky>95</sky>
 			<wspd>
-				<english>3</english>
-				<metric>5</metric>
+				<english>12</english>
+				<metric>19</metric>
 			</wspd>
 			<wdir>
-				<dir>ESE</dir>
-				<degrees>107</degrees>
+				<dir>WSW</dir>
+				<degrees>249</degrees>
 			</wdir>
 			<wx>Showers</wx>
-			<uvi>0</uvi>
-			<humidity>87</humidity>
-			<windchill>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>41</english>
-					<metric>5</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.0</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>38</pop>
-			<mslp>
-				<english>30.08</english>
-				<metric>1019</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>3</hour><hour_padded>03</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456279200</epoch><pretty>3:00 AM CET on February 24, 2016</pretty><civil>3:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>41</english>
-				<metric>5</metric>
-			</temp>
-			<dewpoint>
-				<english>37</english>
-				<metric>3</metric>
-			</dewpoint>
-			<condition>Chance of Rain</condition>
-			
-			
-			<icon>chancerain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_chancerain.gif</icon_url>
-			<fctcode>12</fctcode>
-			<sky>99</sky>
-			<wspd>
-				<english>3</english>
-				<metric>5</metric>
-			</wspd>
-			<wdir>
-				<dir>ESE</dir>
-				<degrees>107</degrees>
-			</wdir>
-			<wx>Showers</wx>
-			<uvi>0</uvi>
-			<humidity>87</humidity>
-			<windchill>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>41</english>
-					<metric>5</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.0</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>37</pop>
-			<mslp>
-				<english>30.06</english>
-				<metric>1018</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>4</hour><hour_padded>04</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456282800</epoch><pretty>4:00 AM CET on February 24, 2016</pretty><civil>4:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>41</english>
-				<metric>5</metric>
-			</temp>
-			<dewpoint>
-				<english>38</english>
-				<metric>3</metric>
-			</dewpoint>
-			<condition>Chance of Rain</condition>
-			
-			
-			<icon>chancerain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_chancerain.gif</icon_url>
-			<fctcode>12</fctcode>
-			<sky>99</sky>
-			<wspd>
-				<english>5</english>
-				<metric>8</metric>
-			</wspd>
-			<wdir>
-				<dir>ESE</dir>
-				<degrees>108</degrees>
-			</wdir>
-			<wx>Showers</wx>
-			<uvi>0</uvi>
-			<humidity>88</humidity>
-			<windchill>
-				<english>38</english>
-				<metric>3</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>38</english>
-					<metric>3</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.01</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>37</pop>
-			<mslp>
-				<english>30.04</english>
-				<metric>1017</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>5</hour><hour_padded>05</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456286400</epoch><pretty>5:00 AM CET on February 24, 2016</pretty><civil>5:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>41</english>
-				<metric>5</metric>
-			</temp>
-			<dewpoint>
-				<english>38</english>
-				<metric>3</metric>
-			</dewpoint>
-			<condition>Chance of Rain</condition>
-			
-			
-			<icon>chancerain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_chancerain.gif</icon_url>
-			<fctcode>12</fctcode>
-			<sky>99</sky>
-			<wspd>
-				<english>6</english>
-				<metric>10</metric>
-			</wspd>
-			<wdir>
-				<dir>ESE</dir>
-				<degrees>107</degrees>
-			</wdir>
-			<wx>Showers</wx>
-			<uvi>0</uvi>
-			<humidity>88</humidity>
-			<windchill>
-				<english>37</english>
-				<metric>3</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>37</english>
-					<metric>3</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.01</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>49</pop>
-			<mslp>
-				<english>30.03</english>
-				<metric>1017</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>6</hour><hour_padded>06</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456290000</epoch><pretty>6:00 AM CET on February 24, 2016</pretty><civil>6:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>41</english>
-				<metric>5</metric>
-			</temp>
-			<dewpoint>
-				<english>38</english>
-				<metric>3</metric>
-			</dewpoint>
-			<condition>Chance of Rain</condition>
-			
-			
-			<icon>chancerain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_chancerain.gif</icon_url>
-			<fctcode>12</fctcode>
-			<sky>82</sky>
-			<wspd>
-				<english>6</english>
-				<metric>10</metric>
-			</wspd>
-			<wdir>
-				<dir>ESE</dir>
-				<degrees>106</degrees>
-			</wdir>
-			<wx>Showers</wx>
-			<uvi>0</uvi>
-			<humidity>87</humidity>
-			<windchill>
-				<english>37</english>
-				<metric>3</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>37</english>
-					<metric>3</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.01</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>49</pop>
-			<mslp>
-				<english>30.01</english>
-				<metric>1016</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>7</hour><hour_padded>07</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456293600</epoch><pretty>7:00 AM CET on February 24, 2016</pretty><civil>7:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>41</english>
-				<metric>5</metric>
-			</temp>
-			<dewpoint>
-				<english>38</english>
-				<metric>3</metric>
-			</dewpoint>
-			<condition>Chance of Rain</condition>
-			
-			
-			<icon>chancerain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_chancerain.gif</icon_url>
-			<fctcode>12</fctcode>
-			<sky>87</sky>
-			<wspd>
-				<english>7</english>
-				<metric>11</metric>
-			</wspd>
-			<wdir>
-				<dir>ESE</dir>
-				<degrees>102</degrees>
-			</wdir>
-			<wx>Showers</wx>
-			<uvi>0</uvi>
-			<humidity>89</humidity>
-			<windchill>
-				<english>36</english>
-				<metric>2</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>36</english>
-					<metric>2</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.03</english>
-				<metric>1</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>49</pop>
-			<mslp>
-				<english>30.0</english>
-				<metric>1016</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>8</hour><hour_padded>08</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456297200</epoch><pretty>8:00 AM CET on February 24, 2016</pretty><civil>8:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>41</english>
-				<metric>5</metric>
-			</temp>
-			<dewpoint>
-				<english>38</english>
-				<metric>3</metric>
-			</dewpoint>
-			<condition>Rain</condition>
-			
-			
-			<icon>rain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/rain.gif</icon_url>
-			<fctcode>13</fctcode>
-			<sky>100</sky>
-			<wspd>
-				<english>9</english>
-				<metric>14</metric>
-			</wspd>
-			<wdir>
-				<dir>E</dir>
-				<degrees>97</degrees>
-			</wdir>
-			<wx>Rain</wx>
-			<uvi>0</uvi>
-			<humidity>89</humidity>
-			<windchill>
-				<english>35</english>
-				<metric>2</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>35</english>
-					<metric>2</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.03</english>
-				<metric>1</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>67</pop>
-			<mslp>
-				<english>29.98</english>
-				<metric>1015</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>9</hour><hour_padded>09</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456300800</epoch><pretty>9:00 AM CET on February 24, 2016</pretty><civil>9:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>40</english>
-				<metric>4</metric>
-			</temp>
-			<dewpoint>
-				<english>38</english>
-				<metric>3</metric>
-			</dewpoint>
-			<condition>Rain</condition>
-			
-			
-			<icon>rain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/rain.gif</icon_url>
-			<fctcode>13</fctcode>
-			<sky>100</sky>
-			<wspd>
-				<english>9</english>
-				<metric>14</metric>
-			</wspd>
-			<wdir>
-				<dir>E</dir>
-				<degrees>95</degrees>
-			</wdir>
-			<wx>Rain</wx>
 			<uvi>0</uvi>
 			<humidity>92</humidity>
 			<windchill>
-				<english>33</english>
-				<metric>1</metric>
+				<english>-9999</english>
+				<metric>-9999</metric>
 			</windchill>
 			<heatindex>
 				<english>-9999</english>
@@ -841,318 +1938,74 @@
 			</heatindex>
 			
 				<feelslike>
-					<english>33</english>
-					<metric>1</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.03</english>
-				<metric>1</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>73</pop>
-			<mslp>
-				<english>29.97</english>
-				<metric>1015</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>10</hour><hour_padded>10</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456304400</epoch><pretty>10:00 AM CET on February 24, 2016</pretty><civil>10:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>41</english>
-				<metric>5</metric>
-			</temp>
-			<dewpoint>
-				<english>39</english>
-				<metric>4</metric>
-			</dewpoint>
-			<condition>Chance of Rain</condition>
-			
-			
-			<icon>chancerain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/chancerain.gif</icon_url>
-			<fctcode>12</fctcode>
-			<sky>98</sky>
-			<wspd>
-				<english>10</english>
-				<metric>16</metric>
-			</wspd>
-			<wdir>
-				<dir>E</dir>
-				<degrees>94</degrees>
-			</wdir>
-			<wx>Light Rain</wx>
-			<uvi>0</uvi>
-			<humidity>90</humidity>
-			<windchill>
-				<english>35</english>
-				<metric>2</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>35</english>
-					<metric>2</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.02</english>
-				<metric>1</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>80</pop>
-			<mslp>
-				<english>29.96</english>
-				<metric>1015</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>11</hour><hour_padded>11</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456308000</epoch><pretty>11:00 AM CET on February 24, 2016</pretty><civil>11:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>42</english>
-				<metric>6</metric>
-			</temp>
-			<dewpoint>
-				<english>39</english>
-				<metric>4</metric>
-			</dewpoint>
-			<condition>Chance of Rain</condition>
-			
-			
-			<icon>chancerain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/chancerain.gif</icon_url>
-			<fctcode>12</fctcode>
-			<sky>99</sky>
-			<wspd>
-				<english>11</english>
-				<metric>18</metric>
-			</wspd>
-			<wdir>
-				<dir>E</dir>
-				<degrees>93</degrees>
-			</wdir>
-			<wx>Light Rain</wx>
-			<uvi>0</uvi>
-			<humidity>89</humidity>
-			<windchill>
-				<english>37</english>
-				<metric>3</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>37</english>
-					<metric>3</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.02</english>
-				<metric>1</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>68</pop>
-			<mslp>
-				<english>29.94</english>
-				<metric>1014</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>12</hour><hour_padded>12</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456311600</epoch><pretty>12:00 PM CET on February 24, 2016</pretty><civil>12:00 PM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>43</english>
-				<metric>6</metric>
-			</temp>
-			<dewpoint>
-				<english>39</english>
-				<metric>4</metric>
-			</dewpoint>
-			<condition>Chance of Rain</condition>
-			
-			
-			<icon>chancerain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/chancerain.gif</icon_url>
-			<fctcode>12</fctcode>
-			<sky>99</sky>
-			<wspd>
-				<english>12</english>
-				<metric>19</metric>
-			</wspd>
-			<wdir>
-				<dir>E</dir>
-				<degrees>92</degrees>
-			</wdir>
-			<wx>Light Rain</wx>
-			<uvi>1</uvi>
-			<humidity>88</humidity>
-			<windchill>
-				<english>36</english>
-				<metric>2</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>36</english>
-					<metric>2</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.02</english>
-				<metric>1</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>69</pop>
-			<mslp>
-				<english>29.93</english>
-				<metric>1014</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>13</hour><hour_padded>13</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456315200</epoch><pretty>1:00 PM CET on February 24, 2016</pretty><civil>1:00 PM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>43</english>
-				<metric>6</metric>
-			</temp>
-			<dewpoint>
-				<english>39</english>
-				<metric>4</metric>
-			</dewpoint>
-			<condition>Chance of Rain</condition>
-			
-			
-			<icon>chancerain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/chancerain.gif</icon_url>
-			<fctcode>12</fctcode>
-			<sky>100</sky>
-			<wspd>
-				<english>12</english>
-				<metric>19</metric>
-			</wspd>
-			<wdir>
-				<dir>E</dir>
-				<degrees>91</degrees>
-			</wdir>
-			<wx>Light Rain</wx>
-			<uvi>1</uvi>
-			<humidity>87</humidity>
-			<windchill>
-				<english>36</english>
-				<metric>2</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>36</english>
-					<metric>2</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.02</english>
-				<metric>1</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>70</pop>
-			<mslp>
-				<english>29.91</english>
-				<metric>1013</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>14</hour><hour_padded>14</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456318800</epoch><pretty>2:00 PM CET on February 24, 2016</pretty><civil>2:00 PM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>43</english>
-				<metric>6</metric>
-			</temp>
-			<dewpoint>
-				<english>39</english>
-				<metric>4</metric>
-			</dewpoint>
-			<condition>Chance of Rain</condition>
-			
-			
-			<icon>chancerain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/chancerain.gif</icon_url>
-			<fctcode>12</fctcode>
-			<sky>98</sky>
-			<wspd>
-				<english>12</english>
-				<metric>19</metric>
-			</wspd>
-			<wdir>
-				<dir>E</dir>
-				<degrees>88</degrees>
-			</wdir>
-			<wx>Showers</wx>
-			<uvi>1</uvi>
-			<humidity>86</humidity>
-			<windchill>
-				<english>36</english>
-				<metric>2</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>36</english>
-					<metric>2</metric>
+					<english>49</english>
+					<metric>9</metric>
 				</feelslike>
 			
 			<qpf>
 				<english>0.01</english>
 				<metric>0</metric>
+			</qpf>
+			<snow>
+				<english>0.0</english>
+				<metric>0</metric>
+			</snow>
+			<pop>42</pop>
+			<mslp>
+				<english>29.55</english>
+				<metric>1001</metric>
+			</mslp>
+		</forecast>
+		
+	
+		
+		<forecast>
+			<FCTTIME>
+				<hour>2</hour><hour_padded>02</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>4</mday><mday_padded>04</mday_padded><yday>63</yday><isdst>0</isdst><epoch>1457053200</epoch><pretty>2:00 AM CET on March 04, 2016</pretty><civil>2:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Friday</weekday_name><weekday_name_night>Friday Night</weekday_name_night><weekday_name_abbrev>Fri</weekday_name_abbrev><weekday_name_unlang>Friday</weekday_name_unlang><weekday_name_night_unlang>Friday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+			</FCTTIME>
+			<temp>
+				<english>49</english>
+				<metric>9</metric>
+			</temp>
+			<dewpoint>
+				<english>46</english>
+				<metric>8</metric>
+			</dewpoint>
+			<condition>Chance of Rain</condition>
+			
+			
+			<icon>chancerain</icon>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_chancerain.gif</icon_url>
+			<fctcode>12</fctcode>
+			<sky>95</sky>
+			<wspd>
+				<english>14</english>
+				<metric>23</metric>
+			</wspd>
+			<wdir>
+				<dir>W</dir>
+				<degrees>259</degrees>
+			</wdir>
+			<wx>Showers</wx>
+			<uvi>0</uvi>
+			<humidity>90</humidity>
+			<windchill>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</windchill>
+			<heatindex>
+				<english>-9999</english>
+				<metric>-9999</metric>
+			</heatindex>
+			
+				<feelslike>
+					<english>49</english>
+					<metric>9</metric>
+				</feelslike>
+			
+			<qpf>
+				<english>0.02</english>
+				<metric>1</metric>
 			</qpf>
 			<snow>
 				<english>0.0</english>
@@ -1160,8 +2013,8 @@
 			</snow>
 			<pop>59</pop>
 			<mslp>
-				<english>29.9</english>
-				<metric>1013</metric>
+				<english>29.52</english>
+				<metric>1000</metric>
 			</mslp>
 		</forecast>
 		
@@ -1169,98 +2022,37 @@
 		
 		<forecast>
 			<FCTTIME>
-				<hour>15</hour><hour_padded>15</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456322400</epoch><pretty>3:00 PM CET on February 24, 2016</pretty><civil>3:00 PM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+				<hour>3</hour><hour_padded>03</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>4</mday><mday_padded>04</mday_padded><yday>63</yday><isdst>0</isdst><epoch>1457056800</epoch><pretty>3:00 AM CET on March 04, 2016</pretty><civil>3:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Friday</weekday_name><weekday_name_night>Friday Night</weekday_name_night><weekday_name_abbrev>Fri</weekday_name_abbrev><weekday_name_unlang>Friday</weekday_name_unlang><weekday_name_night_unlang>Friday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
 			</FCTTIME>
 			<temp>
-				<english>44</english>
-				<metric>7</metric>
+				<english>47</english>
+				<metric>8</metric>
 			</temp>
 			<dewpoint>
-				<english>39</english>
-				<metric>4</metric>
+				<english>44</english>
+				<metric>7</metric>
 			</dewpoint>
 			<condition>Chance of Rain</condition>
 			
 			
 			<icon>chancerain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/chancerain.gif</icon_url>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_chancerain.gif</icon_url>
 			<fctcode>12</fctcode>
-			<sky>99</sky>
+			<sky>97</sky>
 			<wspd>
-				<english>11</english>
-				<metric>18</metric>
+				<english>14</english>
+				<metric>23</metric>
 			</wspd>
 			<wdir>
-				<dir>E</dir>
-				<degrees>82</degrees>
+				<dir>W</dir>
+				<degrees>265</degrees>
 			</wdir>
-			<wx>Showers</wx>
-			<uvi>1</uvi>
-			<humidity>84</humidity>
-			<windchill>
-				<english>39</english>
-				<metric>4</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>39</english>
-					<metric>4</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.01</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>52</pop>
-			<mslp>
-				<english>29.88</english>
-				<metric>1012</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>16</hour><hour_padded>16</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456326000</epoch><pretty>4:00 PM CET on February 24, 2016</pretty><civil>4:00 PM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>44</english>
-				<metric>7</metric>
-			</temp>
-			<dewpoint>
-				<english>38</english>
-				<metric>3</metric>
-			</dewpoint>
-			<condition>Chance of Rain</condition>
-			
-			
-			<icon>chancerain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/chancerain.gif</icon_url>
-			<fctcode>12</fctcode>
-			<sky>99</sky>
-			<wspd>
-				<english>11</english>
-				<metric>18</metric>
-			</wspd>
-			<wdir>
-				<dir>ENE</dir>
-				<degrees>74</degrees>
-			</wdir>
-			<wx>Showers</wx>
+			<wx>Light Rain</wx>
 			<uvi>0</uvi>
-			<humidity>82</humidity>
+			<humidity>88</humidity>
 			<windchill>
-				<english>39</english>
-				<metric>4</metric>
+				<english>40</english>
+				<metric>5</metric>
 			</windchill>
 			<heatindex>
 				<english>-9999</english>
@@ -1268,8 +2060,8 @@
 			</heatindex>
 			
 				<feelslike>
-					<english>39</english>
-					<metric>4</metric>
+					<english>40</english>
+					<metric>5</metric>
 				</feelslike>
 			
 			<qpf>
@@ -1280,10 +2072,10 @@
 				<english>0.0</english>
 				<metric>0</metric>
 			</snow>
-			<pop>46</pop>
+			<pop>61</pop>
 			<mslp>
-				<english>29.86</english>
-				<metric>1011</metric>
+				<english>29.49</english>
+				<metric>999</metric>
 			</mslp>
 		</forecast>
 		
@@ -1291,159 +2083,37 @@
 		
 		<forecast>
 			<FCTTIME>
-				<hour>17</hour><hour_padded>17</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456329600</epoch><pretty>5:00 PM CET on February 24, 2016</pretty><civil>5:00 PM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+				<hour>4</hour><hour_padded>04</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>4</mday><mday_padded>04</mday_padded><yday>63</yday><isdst>0</isdst><epoch>1457060400</epoch><pretty>4:00 AM CET on March 04, 2016</pretty><civil>4:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Friday</weekday_name><weekday_name_night>Friday Night</weekday_name_night><weekday_name_abbrev>Fri</weekday_name_abbrev><weekday_name_unlang>Friday</weekday_name_unlang><weekday_name_night_unlang>Friday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
 			</FCTTIME>
 			<temp>
+				<english>46</english>
+				<metric>8</metric>
+			</temp>
+			<dewpoint>
 				<english>43</english>
 				<metric>6</metric>
-			</temp>
-			<dewpoint>
-				<english>38</english>
-				<metric>3</metric>
 			</dewpoint>
 			<condition>Chance of Rain</condition>
 			
 			
 			<icon>chancerain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/chancerain.gif</icon_url>
+			<icon_url>http://icons.wxug.com/i/c/k/nt_chancerain.gif</icon_url>
 			<fctcode>12</fctcode>
-			<sky>96</sky>
+			<sky>99</sky>
 			<wspd>
-				<english>11</english>
-				<metric>18</metric>
+				<english>13</english>
+				<metric>21</metric>
 			</wspd>
 			<wdir>
-				<dir>ENE</dir>
-				<degrees>65</degrees>
+				<dir>W</dir>
+				<degrees>270</degrees>
 			</wdir>
-			<wx>Showers</wx>
+			<wx>Light Rain</wx>
 			<uvi>0</uvi>
-			<humidity>84</humidity>
+			<humidity>86</humidity>
 			<windchill>
-				<english>37</english>
-				<metric>3</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>37</english>
-					<metric>3</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.02</english>
-				<metric>1</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>52</pop>
-			<mslp>
-				<english>29.85</english>
-				<metric>1011</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>18</hour><hour_padded>18</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456333200</epoch><pretty>6:00 PM CET on February 24, 2016</pretty><civil>6:00 PM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>42</english>
-				<metric>6</metric>
-			</temp>
-			<dewpoint>
-				<english>38</english>
-				<metric>3</metric>
-			</dewpoint>
-			<condition>Chance of Rain</condition>
-			
-			
-			<icon>chancerain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/chancerain.gif</icon_url>
-			<fctcode>12</fctcode>
-			<sky>94</sky>
-			<wspd>
-				<english>10</english>
-				<metric>16</metric>
-			</wspd>
-			<wdir>
-				<dir>NE</dir>
-				<degrees>56</degrees>
-			</wdir>
-			<wx>Showers</wx>
-			<uvi>0</uvi>
-			<humidity>87</humidity>
-			<windchill>
-				<english>37</english>
-				<metric>3</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>37</english>
-					<metric>3</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.02</english>
-				<metric>1</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>53</pop>
-			<mslp>
-				<english>29.85</english>
-				<metric>1011</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>19</hour><hour_padded>19</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456336800</epoch><pretty>7:00 PM CET on February 24, 2016</pretty><civil>7:00 PM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
 				<english>41</english>
 				<metric>5</metric>
-			</temp>
-			<dewpoint>
-				<english>38</english>
-				<metric>3</metric>
-			</dewpoint>
-			<condition>Chance of Rain</condition>
-			
-			
-			<icon>chancerain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_chancerain.gif</icon_url>
-			<fctcode>12</fctcode>
-			<sky>91</sky>
-			<wspd>
-				<english>10</english>
-				<metric>16</metric>
-			</wspd>
-			<wdir>
-				<dir>NE</dir>
-				<degrees>46</degrees>
-			</wdir>
-			<wx>Showers</wx>
-			<uvi>0</uvi>
-			<humidity>89</humidity>
-			<windchill>
-				<english>35</english>
-				<metric>2</metric>
 			</windchill>
 			<heatindex>
 				<english>-9999</english>
@@ -1451,8 +2121,8 @@
 			</heatindex>
 			
 				<feelslike>
-					<english>35</english>
-					<metric>2</metric>
+					<english>41</english>
+					<metric>5</metric>
 				</feelslike>
 			
 			<qpf>
@@ -1463,10 +2133,10 @@
 				<english>0.0</english>
 				<metric>0</metric>
 			</snow>
-			<pop>53</pop>
+			<pop>66</pop>
 			<mslp>
-				<english>29.86</english>
-				<metric>1011</metric>
+				<english>29.47</english>
+				<metric>998</metric>
 			</mslp>
 		</forecast>
 		
@@ -1474,15 +2144,15 @@
 		
 		<forecast>
 			<FCTTIME>
-				<hour>20</hour><hour_padded>20</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456340400</epoch><pretty>8:00 PM CET on February 24, 2016</pretty><civil>8:00 PM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
+				<hour>5</hour><hour_padded>05</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>3</mon><mon_padded>03</mon_padded><mon_abbrev>Mar</mon_abbrev><mday>4</mday><mday_padded>04</mday_padded><yday>63</yday><isdst>0</isdst><epoch>1457064000</epoch><pretty>5:00 AM CET on March 04, 2016</pretty><civil>5:00 AM</civil><month_name>March</month_name><month_name_abbrev>Mar</month_name_abbrev><weekday_name>Friday</weekday_name><weekday_name_night>Friday Night</weekday_name_night><weekday_name_abbrev>Fri</weekday_name_abbrev><weekday_name_unlang>Friday</weekday_name_unlang><weekday_name_night_unlang>Friday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
 			</FCTTIME>
 			<temp>
+				<english>45</english>
+				<metric>7</metric>
+			</temp>
+			<dewpoint>
 				<english>41</english>
 				<metric>5</metric>
-			</temp>
-			<dewpoint>
-				<english>38</english>
-				<metric>3</metric>
 			</dewpoint>
 			<condition>Chance of Rain</condition>
 			
@@ -1490,204 +2160,21 @@
 			<icon>chancerain</icon>
 			<icon_url>http://icons.wxug.com/i/c/k/nt_chancerain.gif</icon_url>
 			<fctcode>12</fctcode>
-			<sky>93</sky>
+			<sky>84</sky>
 			<wspd>
-				<english>10</english>
-				<metric>16</metric>
+				<english>12</english>
+				<metric>19</metric>
 			</wspd>
 			<wdir>
-				<dir>NE</dir>
-				<degrees>46</degrees>
+				<dir>W</dir>
+				<degrees>275</degrees>
 			</wdir>
 			<wx>Showers</wx>
 			<uvi>0</uvi>
-			<humidity>88</humidity>
+			<humidity>86</humidity>
 			<windchill>
-				<english>35</english>
-				<metric>2</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>35</english>
-					<metric>2</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.01</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>38</pop>
-			<mslp>
-				<english>29.87</english>
-				<metric>1012</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>21</hour><hour_padded>21</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456344000</epoch><pretty>9:00 PM CET on February 24, 2016</pretty><civil>9:00 PM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>40</english>
-				<metric>4</metric>
-			</temp>
-			<dewpoint>
-				<english>37</english>
-				<metric>3</metric>
-			</dewpoint>
-			<condition>Chance of Rain</condition>
-			
-			
-			<icon>chancerain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_chancerain.gif</icon_url>
-			<fctcode>12</fctcode>
-			<sky>88</sky>
-			<wspd>
-				<english>10</english>
-				<metric>16</metric>
-			</wspd>
-			<wdir>
-				<dir>NE</dir>
-				<degrees>42</degrees>
-			</wdir>
-			<wx>Showers</wx>
-			<uvi>0</uvi>
-			<humidity>88</humidity>
-			<windchill>
-				<english>33</english>
-				<metric>0</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>33</english>
-					<metric>0</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.01</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>38</pop>
-			<mslp>
-				<english>29.89</english>
-				<metric>1012</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>22</hour><hour_padded>22</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456347600</epoch><pretty>10:00 PM CET on February 24, 2016</pretty><civil>10:00 PM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>40</english>
-				<metric>4</metric>
-			</temp>
-			<dewpoint>
-				<english>37</english>
-				<metric>3</metric>
-			</dewpoint>
-			<condition>Chance of Rain</condition>
-			
-			
-			<icon>chancerain</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_chancerain.gif</icon_url>
-			<fctcode>12</fctcode>
-			<sky>86</sky>
-			<wspd>
-				<english>9</english>
-				<metric>14</metric>
-			</wspd>
-			<wdir>
-				<dir>NE</dir>
-				<degrees>40</degrees>
-			</wdir>
-			<wx>Showers</wx>
-			<uvi>0</uvi>
-			<humidity>89</humidity>
-			<windchill>
-				<english>33</english>
-				<metric>1</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>33</english>
-					<metric>1</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.0</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>37</pop>
-			<mslp>
-				<english>29.89</english>
-				<metric>1012</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>23</hour><hour_padded>23</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>24</mday><mday_padded>24</mday_padded><yday>54</yday><isdst>0</isdst><epoch>1456351200</epoch><pretty>11:00 PM CET on February 24, 2016</pretty><civil>11:00 PM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Wednesday</weekday_name><weekday_name_night>Wednesday Night</weekday_name_night><weekday_name_abbrev>Wed</weekday_name_abbrev><weekday_name_unlang>Wednesday</weekday_name_unlang><weekday_name_night_unlang>Wednesday Night</weekday_name_night_unlang><ampm>PM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
 				<english>39</english>
 				<metric>4</metric>
-			</temp>
-			<dewpoint>
-				<english>37</english>
-				<metric>3</metric>
-			</dewpoint>
-			<condition>Mostly Cloudy</condition>
-			
-			
-			<icon>mostlycloudy</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif</icon_url>
-			<fctcode>3</fctcode>
-			<sky>73</sky>
-			<wspd>
-				<english>8</english>
-				<metric>13</metric>
-			</wspd>
-			<wdir>
-				<dir>NE</dir>
-				<degrees>34</degrees>
-			</wdir>
-			<wx>Mostly Cloudy</wx>
-			<uvi>0</uvi>
-			<humidity>91</humidity>
-			<windchill>
-				<english>34</english>
-				<metric>1</metric>
 			</windchill>
 			<heatindex>
 				<english>-9999</english>
@@ -1695,8 +2182,8 @@
 			</heatindex>
 			
 				<feelslike>
-					<english>34</english>
-					<metric>1</metric>
+					<english>39</english>
+					<metric>4</metric>
 				</feelslike>
 			
 			<qpf>
@@ -1707,498 +2194,10 @@
 				<english>0.0</english>
 				<metric>0</metric>
 			</snow>
-			<pop>5</pop>
+			<pop>44</pop>
 			<mslp>
-				<english>29.9</english>
-				<metric>1013</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>0</hour><hour_padded>00</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>25</mday><mday_padded>25</mday_padded><yday>55</yday><isdst>0</isdst><epoch>1456354800</epoch><pretty>12:00 AM CET on February 25, 2016</pretty><civil>12:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>38</english>
-				<metric>3</metric>
-			</temp>
-			<dewpoint>
-				<english>36</english>
-				<metric>2</metric>
-			</dewpoint>
-			<condition>Partly Cloudy</condition>
-			
-			
-			<icon>partlycloudy</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
-			<fctcode>2</fctcode>
-			<sky>58</sky>
-			<wspd>
-				<english>8</english>
-				<metric>13</metric>
-			</wspd>
-			<wdir>
-				<dir>NNE</dir>
-				<degrees>28</degrees>
-			</wdir>
-			<wx>Partly Cloudy</wx>
-			<uvi>0</uvi>
-			<humidity>92</humidity>
-			<windchill>
-				<english>31</english>
-				<metric>-0</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>31</english>
-					<metric>-0</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.0</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>5</pop>
-			<mslp>
-				<english>29.91</english>
-				<metric>1013</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>1</hour><hour_padded>01</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>25</mday><mday_padded>25</mday_padded><yday>55</yday><isdst>0</isdst><epoch>1456358400</epoch><pretty>1:00 AM CET on February 25, 2016</pretty><civil>1:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>38</english>
-				<metric>3</metric>
-			</temp>
-			<dewpoint>
-				<english>35</english>
-				<metric>2</metric>
-			</dewpoint>
-			<condition>Partly Cloudy</condition>
-			
-			
-			<icon>partlycloudy</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
-			<fctcode>2</fctcode>
-			<sky>44</sky>
-			<wspd>
-				<english>8</english>
-				<metric>13</metric>
-			</wspd>
-			<wdir>
-				<dir>NNE</dir>
-				<degrees>26</degrees>
-			</wdir>
-			<wx>Partly Cloudy</wx>
-			<uvi>0</uvi>
-			<humidity>91</humidity>
-			<windchill>
-				<english>31</english>
-				<metric>-0</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>31</english>
-					<metric>-0</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.0</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>4</pop>
-			<mslp>
-				<english>29.92</english>
-				<metric>1013</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>2</hour><hour_padded>02</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>25</mday><mday_padded>25</mday_padded><yday>55</yday><isdst>0</isdst><epoch>1456362000</epoch><pretty>2:00 AM CET on February 25, 2016</pretty><civil>2:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>37</english>
-				<metric>3</metric>
-			</temp>
-			<dewpoint>
-				<english>35</english>
-				<metric>2</metric>
-			</dewpoint>
-			<condition>Partly Cloudy</condition>
-			
-			
-			<icon>partlycloudy</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>
-			<fctcode>2</fctcode>
-			<sky>31</sky>
-			<wspd>
-				<english>8</english>
-				<metric>13</metric>
-			</wspd>
-			<wdir>
-				<dir>NNE</dir>
-				<degrees>25</degrees>
-			</wdir>
-			<wx>Partly Cloudy</wx>
-			<uvi>0</uvi>
-			<humidity>93</humidity>
-			<windchill>
-				<english>31</english>
-				<metric>-0</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>31</english>
-					<metric>-0</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.0</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>4</pop>
-			<mslp>
-				<english>29.93</english>
-				<metric>1014</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>3</hour><hour_padded>03</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>25</mday><mday_padded>25</mday_padded><yday>55</yday><isdst>0</isdst><epoch>1456365600</epoch><pretty>3:00 AM CET on February 25, 2016</pretty><civil>3:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>36</english>
-				<metric>2</metric>
-			</temp>
-			<dewpoint>
-				<english>34</english>
-				<metric>1</metric>
-			</dewpoint>
-			<condition>Clear</condition>
-			
-			
-			<icon>clear</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>
-			<fctcode>1</fctcode>
-			<sky>14</sky>
-			<wspd>
-				<english>7</english>
-				<metric>11</metric>
-			</wspd>
-			<wdir>
-				<dir>NNE</dir>
-				<degrees>24</degrees>
-			</wdir>
-			<wx>Clear</wx>
-			<uvi>0</uvi>
-			<humidity>93</humidity>
-			<windchill>
-				<english>30</english>
-				<metric>-1</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>30</english>
-					<metric>-1</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.0</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>5</pop>
-			<mslp>
-				<english>29.93</english>
-				<metric>1014</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>4</hour><hour_padded>04</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>25</mday><mday_padded>25</mday_padded><yday>55</yday><isdst>0</isdst><epoch>1456369200</epoch><pretty>4:00 AM CET on February 25, 2016</pretty><civil>4:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>35</english>
-				<metric>2</metric>
-			</temp>
-			<dewpoint>
-				<english>33</english>
-				<metric>1</metric>
-			</dewpoint>
-			<condition>Clear</condition>
-			
-			
-			<icon>clear</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>
-			<fctcode>1</fctcode>
-			<sky>9</sky>
-			<wspd>
-				<english>7</english>
-				<metric>11</metric>
-			</wspd>
-			<wdir>
-				<dir>NNE</dir>
-				<degrees>18</degrees>
-			</wdir>
-			<wx>Clear</wx>
-			<uvi>0</uvi>
-			<humidity>92</humidity>
-			<windchill>
-				<english>30</english>
-				<metric>-1</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>30</english>
-					<metric>-1</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.0</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>5</pop>
-			<mslp>
-				<english>29.93</english>
-				<metric>1014</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>5</hour><hour_padded>05</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>25</mday><mday_padded>25</mday_padded><yday>55</yday><isdst>0</isdst><epoch>1456372800</epoch><pretty>5:00 AM CET on February 25, 2016</pretty><civil>5:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>34</english>
-				<metric>1</metric>
-			</temp>
-			<dewpoint>
-				<english>33</english>
-				<metric>1</metric>
-			</dewpoint>
-			<condition>Clear</condition>
-			
-			
-			<icon>clear</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>
-			<fctcode>1</fctcode>
-			<sky>10</sky>
-			<wspd>
-				<english>7</english>
-				<metric>11</metric>
-			</wspd>
-			<wdir>
-				<dir>NNE</dir>
-				<degrees>18</degrees>
-			</wdir>
-			<wx>Clear</wx>
-			<uvi>0</uvi>
-			<humidity>93</humidity>
-			<windchill>
-				<english>28</english>
-				<metric>-2</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>28</english>
-					<metric>-2</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.0</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>5</pop>
-			<mslp>
-				<english>29.94</english>
-				<metric>1014</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>6</hour><hour_padded>06</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>25</mday><mday_padded>25</mday_padded><yday>55</yday><isdst>0</isdst><epoch>1456376400</epoch><pretty>6:00 AM CET on February 25, 2016</pretty><civil>6:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>34</english>
-				<metric>1</metric>
-			</temp>
-			<dewpoint>
-				<english>32</english>
-				<metric>0</metric>
-			</dewpoint>
-			<condition>Clear</condition>
-			
-			
-			<icon>clear</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>
-			<fctcode>1</fctcode>
-			<sky>11</sky>
-			<wspd>
-				<english>6</english>
-				<metric>10</metric>
-			</wspd>
-			<wdir>
-				<dir>NNE</dir>
-				<degrees>16</degrees>
-			</wdir>
-			<wx>Clear</wx>
-			<uvi>0</uvi>
-			<humidity>93</humidity>
-			<windchill>
-				<english>28</english>
-				<metric>-2</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>28</english>
-					<metric>-2</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.0</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>5</pop>
-			<mslp>
-				<english>29.95</english>
-				<metric>1014</metric>
-			</mslp>
-		</forecast>
-		
-	
-		
-		<forecast>
-			<FCTTIME>
-				<hour>7</hour><hour_padded>07</hour_padded><min>00</min><min_unpadded>0</min_unpadded><sec>0</sec><year>2016</year><mon>2</mon><mon_padded>02</mon_padded><mon_abbrev>Feb</mon_abbrev><mday>25</mday><mday_padded>25</mday_padded><yday>55</yday><isdst>0</isdst><epoch>1456380000</epoch><pretty>7:00 AM CET on February 25, 2016</pretty><civil>7:00 AM</civil><month_name>February</month_name><month_name_abbrev>Feb</month_name_abbrev><weekday_name>Thursday</weekday_name><weekday_name_night>Thursday Night</weekday_name_night><weekday_name_abbrev>Thu</weekday_name_abbrev><weekday_name_unlang>Thursday</weekday_name_unlang><weekday_name_night_unlang>Thursday Night</weekday_name_night_unlang><ampm>AM</ampm><tz></tz><age></age><UTCDATE></UTCDATE>
-			</FCTTIME>
-			<temp>
-				<english>34</english>
-				<metric>1</metric>
-			</temp>
-			<dewpoint>
-				<english>32</english>
-				<metric>0</metric>
-			</dewpoint>
-			<condition>Clear</condition>
-			
-			
-			<icon>clear</icon>
-			<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>
-			<fctcode>1</fctcode>
-			<sky>13</sky>
-			<wspd>
-				<english>6</english>
-				<metric>10</metric>
-			</wspd>
-			<wdir>
-				<dir>NNE</dir>
-				<degrees>13</degrees>
-			</wdir>
-			<wx>Clear</wx>
-			<uvi>0</uvi>
-			<humidity>94</humidity>
-			<windchill>
-				<english>28</english>
-				<metric>-2</metric>
-			</windchill>
-			<heatindex>
-				<english>-9999</english>
-				<metric>-9999</metric>
-			</heatindex>
-			
-				<feelslike>
-					<english>28</english>
-					<metric>-2</metric>
-				</feelslike>
-			
-			<qpf>
-				<english>0.0</english>
-				<metric>0</metric>
-			</qpf>
-			<snow>
-				<english>0.0</english>
-				<metric>0</metric>
-			</snow>
-			<pop>6</pop>
-			<mslp>
-				<english>29.96</english>
-				<metric>1015</metric>
+				<english>29.46</english>
+				<metric>998</metric>
 			</mslp>
 		</forecast>
 		
