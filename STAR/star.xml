@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opendata>
+	<request>https://data.keolis-rennes.com/xml/?cmd=getbusnextdepartures&amp;version=2.1&amp;key=NVYRKO3GDR7H8O9&amp;param[mode]=stopline&amp;param[route][]=0032&amp;param[direction][]=1&amp;param[stop][]=1441</request>
+	<answer>
+		<status code="0" message="OK"/>
+		<data localdatetime="2016-01-11T16:18:25+01:00">
+			<stopline>
+				<stop>1441</stop>
+				<route>0032</route>
+				<direction>1</direction>
+				<departures>
+					<departure accurate="1" headsign="Beaulieu | Atalante">2016-01-11T16:20:00+01:00</departure>
+					<departure accurate="1" headsign="Beaulieu | Atalante">2016-01-11T16:40:00+01:00</departure>
+					<departure accurate="1" headsign="Beaulieu | Atalante">2016-01-11T17:10:00+01:00</departure>
+				</departures>
+			</stopline>
+            <stopline>
+				<stop>1555</stop>
+				<route>0040</route>
+				<direction>1</direction>
+				<departures>
+					<departure accurate="1" headsign="Monquc sur  oise">2016-01-11T16:19:00+01:00</departure>
+					<departure accurate="1" headsign="Tonquc sur toise">2016-01-11T16:22:00+01:00</departure>
+					<departure accurate="1" headsign="Conquc sur soise">2016-01-11T16:32:30+01:00</departure>
+					<departure accurate="1" headsign="Lonquc sur loise">2016-01-11T16:52:00+01:00</departure>
+					<departure accurate="1" headsign="Donquc sur doise">2016-01-11T17:12:30+01:00</departure>
+					<departure accurate="1" headsign="Conquc sur soise">2016-01-11T17:13:30+01:00</departure>
+					<departure accurate="1" headsign="Lonquc sur loise">2016-01-11T17:14:00+01:00</departure>
+					<departure accurate="1" headsign="Donquc sur doise">2016-01-11T17:15:30+01:00</departure>
+				</departures>
+			</stopline>
+		</data>
+	</answer>
+</opendata>

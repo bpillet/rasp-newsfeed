@@ -1,0 +1,2 @@
+/usr/lib/chromium/chromium --password-store=detect --noerrdialogs --kiosk --incognito --disable-infobars --disable-translate --allow-file-access-from-files /home/hilbert/rasp-newsfeed/page.xml
+

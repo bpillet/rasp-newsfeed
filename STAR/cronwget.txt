@@ -1,1 +1,0 @@
-* 6-15 * * 1-6 hilbert /home/hilbert/rasp-newsfeed/STAR/wgetAPI.sh

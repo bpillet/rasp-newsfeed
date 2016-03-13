@@ -1,0 +1,2 @@
+* 6-15 * * 1-6 /home/hilbert/rasp-newsfeed/STAR/wgetAPI.sh >/dev/null 2>&1
+*/5 * * * * /home/hilbert/rasp-newsfeed/Weather/wgetAPI.sh >/dev/null 2>&1
