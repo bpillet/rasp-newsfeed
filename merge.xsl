@@ -6,7 +6,7 @@
     extension-element-prefixes="date"
     version="1.0">
     <xsl:template match="rasp-newsfeed">
-    <xsl:variable name="STAR" select="document('./STAR/star_test.xml/')" />
+    <xsl:variable name="STAR" select="document('./STAR/star.xml/')" />
     <xsl:variable name="WEATHER" select="document('./Weather/weather.xml/')" />
     <html>
     <head>
