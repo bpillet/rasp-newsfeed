@@ -25,15 +25,18 @@ body{
 	background: #fafafa;
     font-size: .8em;
     text-align: center;
+	overflow: hidden;
 }
 #weather{
 	position: absolute;
 	display: block;
-	width: 100%;/*
+	width: 500%;/*
 	height: 30%;*/
-	max-height: 30%;
+	max-height: 30vh;
 	overflow: hidden;
 	bottom: 1em;
+	left: 1em;
+	text-align: left;
 }
 #timeline{
 	position: relative;
